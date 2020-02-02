@@ -14,7 +14,7 @@
 			<!--pagecell1-->
 			<div id="top">
 				
-				<h1><a href="index.html">邱锡鹏</a></h1> 副教授，博士生导师，复旦大学计算机科学技术学院
+				<h1><a href="index.html">邱锡鹏</a></h1> 副教授，博士生导师，复旦大学计算机科学技术学院，<a href="http://nlp.fudan.edu.cn" target="_blank">自然语言处理与深度学习组</a>
 				
 					
 				<div id="top-right">
@@ -32,6 +32,7 @@
 						<p ><a href="http://weibo.com/xpqiu/" target="_blank"><i class="icon-weibo"></i> 微博</a></p>
 						<p ><a href="https://www.zhihu.com/people/xpqiu" target="_blank"><i class="icon-zhihu-square"></i> 知乎</a></p>
 						<h2>联系方式</h2>
+						<p> <strong>Email</strong>: <a href="mailto:xpqiu@fudan.edu.cn">xpqiu@fudan.edu.cn</a></p>					
 						<p class="list1" >上海市浦东新区张衡路825号（复旦大学张江校区）计算机楼</p>
 
 					</div>
@@ -44,7 +45,7 @@
 					<div class="story">
 					<p> 出生于河南省博爱县，于复旦大学获得理学学士和博士学位。目前主要从事自然语言处理、深度学习等方向的研究，在ACL、EMNLP、AAAI、IJCAI等计算机学会A/B类期刊、会议上发表60余篇学术论文。开源自然语言处理工具<strong><font color="#ff6666">FudanNLP</font></strong>						
 						[<a href="https://github.com/FudanNLP/fnlp/">GitHub</a>] 	[<a href="http://code.google.com/p/fudannlp/">Google Code</a>]项目开发者，<strong><font color="#ff6666">FastNLP</font></strong>						
-						[<a href="https://github.com/fastnlp/fastNLP">GitHub</a>]项目负责人。 2015年入选首届中国科协青年人才托举工程。
+						[<a href="https://github.com/fastnlp/fastNLP">GitHub</a>]项目负责人。 2015年入选首届中国科协青年人才托举工程，2018年获中国中文信息学会“钱伟长中文信息处理科学技术奖—青年创新奖”。
 					</p>
 				</div>
         
@@ -52,7 +53,6 @@
 					<ol>						
 						
 						<li><a href="./slides/20191104-MLA2019-自然语言处理中的表示学习进展：从Transfomer到BERT.pdf">《自然语言处理中的表示学习进展：从Transfomer到BERT》</a>，第十七届中国机器学习及其应用研讨会, 2019/11/02,天津. </li>
-						<li><a href="./slides/20191018-CCL2019-生成对抗网络.pdf">《生成对抗网络》</a>，中国文信息学会前沿技术讲习班, 2019/10/18,昆明. </li>
 						<li><a href="./slides/20190712-面向自然语言处理的深度学习基础.pdf">《面向自然语言处理的深度学习基础》</a>，中国文信息学会前沿技术讲习班, 2019/07/12, 北京. </li>
 						<li><a href="./slides/20181019-PaperWriting.pdf">《如何端到端地写科研论文？》</a>，第十七届中国计算语言学大会，CCL 2018, 2018/10/19, 长沙. </li>
 						<li><a href="./slides/20180826-MTL.pdf">《自然语言处理中的多任务学习》</a>，中国计算机学会学科前沿讲习班, 2018/08/26, 呼和浩特. </li>
@@ -71,9 +71,8 @@
 
 					<h2>学术奖励</h2>
 					<ol>
-						<li>2017年 ACL 2017杰出论文奖 <a href="http://aclweb.org/anthology/P/P17/P17-1110.pdf">Adversarial Multi-Criteria Learning for Chinese Word Segmentation</a></li>						
-						<li>2018年 中国中文信息学会“钱伟长中文信息处理科学技术奖—青年创新奖”</li>
-						<li>2019年 CCL 2019最佳论文奖 <a href="https://arxiv.org/abs/1905.05583">How to Fine-Tune BERT for Text Classification?</a></li>
+						<li>《<a href="http://aclweb.org/anthology/P/P17/P17-1110.pdf">Adversarial Multi-Criteria Learning for Chinese Word Segmentation</a>》ACL 2017杰出论文奖</li>
+						<li>《<a href="https://arxiv.org/abs/1905.05583">How to Fine-Tune BERT for Text Classification?</a>》CCL 2019优秀论文奖</li>
 					</ol>
 				
 					<h2>学术任职</h2>
@@ -84,12 +83,12 @@
 					<p class="list">中国人工智能学会 自然语言理解专委会 委员</p>
 			
 					<h3>PC/SPC</h3>
-					<p class="list">ACL (2014, 2015,2016,2017,2018,2019), EMNLP (2012, 2013, 2014,2015,2017)</p>
-					<p class="list">AAAI (2019,2020), IJCAI (2015,2016,2018,2019)</p>		
+					<p class="list">ACL (2014, 2015,2016,2017,2018,2019),EMNLP (2012, 2013, 2014,2015,2017)</p>
+					<p class="list">AAAI (2019,2020),IJCAI (2015,2016,2018,2019)</p>		
 					
 					<h3>Area Chair</h3>
-					<p class="list">ACL (2020), EMNLP (2019)</p>
-					<p class="list">CCL (2018,2019), CCKS (2016,2017), NLPCC-ICCPOL (2016)</p>
+					<p class="list">ACL (2020),EMNLP (2019)</p>
+					<p class="list">CCL (2018,2019),CCKS (2016,2017),NLPCC-ICCPOL (2016)</p>
 					
 					<h3>PC Chair</h3>
 					<p class="list">IALP (2019)</p>
@@ -114,7 +113,7 @@
 
 					<h2>学生</h2>
 					<h3>博士生</h3>
-					<p  style="margin-left:3em;" >颜航（2019-）、孙天祥（2019-）郭琦鹏（2016-）、龚经经（2015-）</p>
+					<p  style="margin-left:3em;" >郭琦鹏（2016-）、龚经经（2015-）</p>
 					<p  style="margin-left:3em;" ><a href="http://pfliu.com">刘鹏飞</a>（2014-2019，微软学者、百度奖学金、IBM Fellowship、腾讯AI Lab奖学金。毕业去向：CMU博后）</p>
 					<p  style="margin-left:3em" ><a href="http://xcchen.top/">陈新驰</a>（2013-2018，上海市优秀毕业生、复旦大学学术之星、百度奖学金提名奖、微软学者提名奖、上海市计算机学会优秀博士论文提名奖。毕业去向：爱丁堡大学博后）</p>
 					<h3>硕士生</h3>					

@@ -15,10 +15,10 @@
 			<div id="top">
 				
 				<h1><a href="en.html">Xipeng Qiu</a></h1>
-				Associate Professor, School of Computer Science, Fudan University
+				Associate Professor，<a href="http://nlp.fudan.edu.cn" target="_blank">Group of Natural Language Processing and Deep Learning</a><br>School of Computer Science, Fudan University
 				
 				<div id="top-right">
-					<a href="pubs.html">Selected Publications</a> | [<a href="index.html"> CN </a>/<a href="en.html"> EN </a> ]
+					<a href="pubs.html">Selected Publiscations</a> | [<a href="index.html"> CN </a>/<a href="en.html"> EN </a> ]
 				</div>
 			</div>
 			
@@ -32,6 +32,7 @@
 						<p ><a href="http://weibo.com/xpqiu/" target="_blank"><i class="icon-weibo"></i> Weibo</a></p>
 						<p ><a href="https://www.zhihu.com/people/xpqiu" target="_blank"><i class="icon-zhihu-square"></i> Zhihu</a></p>
 						<h2>Contact</h2>
+						<p> <strong>Email</strong>: <a href="mailto:xpqiu@fudan.edu.cn">xpqiu@fudan.edu.cn</a></p>					
 						<p class="list1" >Computer Building, No. 825, Zhangheng Road, Shanghai, China </p>
 
 					</div>
@@ -46,29 +47,43 @@
 						[<a href="https://github.com/FudanNLP/fnlp/">GitHub</a>] 	[<a href="http://code.google.com/p/fudannlp/">Google Code</a>]  for Chinese language processing. </p>
 				</div>
 
-				
+				<div class="feature">
+
+					<h2>Keynote/Invited Speaker (recent)</h2>
+					<ol>
+						<li><a href="http://lt.cityu.edu.hk/Research/cel/">Corpus and Empirical Linguistics Workshop 2016</a>, Jun. 2016, Hongkong. [<a href="./slides/20160618_DL4NLP@CityU.pdf">Slides</a>]</li>
+						<li><a href="http://www.ccf.org.cn/sites/ccf/adldongtai.jsp?contentId=2924819759003">The CCF Advanced Disciplines Lectures on Sentiment Analysis</a>, Jun. 2016, Beijing. [<a href="./slides/20160529_DL4NLP@CCFADL.pdf">Slides</a>]</li>
+						<li><a href="http://www.ccf.org.cn/sites/ccf/adldongtai.jsp?contentId=2903940692817">The CCF Advanced Disciplines Lectures on Knowledge Graph</a>, Dec. 2015, Beijing. [<a href="./slides/20151226_CCFADL_NNDL.pdf">Slides</a>]</li>
+						<li><a href="http://deeplearning2015.noahlab.com.hk/main.htm">ACML 2015 workshop on Deep Learning</a>, Dec 2015 Hongkong, [<a href="./slides/20151120_DLWS@ACML2015.pdf">Slides</a>]</li>
+						<li>CCL 2015 (The 13rd China National Conference on Computational Linguistics, Nov 2015, Guangzhou), [<a href="./slides/20151114_CCL2015_Panel.pdf">Slides</a>]</li>
+						<li>CCIR 2015 (The 21st China Conference on Information Retrieval, Aug 2015, Luoyang), [<a href="./slides/20150825_ccir2015_DenseFeatureComposition.pdf">Slides</a>]</li>
+						
+					</ol>
+				</div>
 				<div class="feature">
 
 					<h2>Awards</h2>
 					<ol>
-						<li>Young Talent Program of China Association for Science and Technology, 2015</li>
-						<li><a href="http://aclweb.org/anthology/P/P17/P17-1110.pdf">Adversarial Multi-Criteria Learning for Chinese Word Segmentation</a>, ACL 2017 Outstanding Paper Award</li>
-						<li><a href="https://arxiv.org/abs/1905.05583">How to Fine-Tune BERT for Text Classification?</a>, CCL 2019 Best Paper Award</li>
+						<li>2015	Young Talent Program of China Association for Science and Technology</li>
 					</ol>
 				</div>
 				<div class="feature">
 
 					<h2>Professional Activity</h2>
-					<h3>PC/SPC</h3>
-					<p class="list">ACL (2014, 2015,2016,2017,2018,2019), EMNLP (2012, 2013, 2014,2015,2017)</p>
-					<p class="list">AAAI (2019,2020), IJCAI (2015,2016,2018,2019)</p>		
+					<h3>Committee Memberships</h3>
+					<p class="list">Standing Youth Committee of Chinese Association for Artificial Intelligence (CAAI)</p>
+					<p class="list">Standing Committee of Natural Language Understanding of CAAI</p>
+					<p class="list">Youth Committee of the Chinese Information Processing Society of China (CIPSC)</p>
+			
+					<h3>Program Committee</h3>
+					<p class="list">ACL (2014, 2015,2016)</p>
+					<p class="list">EMNLP (2012, 2013, 2014,2015)</p>
+					<p class="list">IJCAI (2015,2016)</p>		
 					
 					<h3>Area Chair</h3>
-					<p class="list">ACL (2020), EMNLP (2019)</p>
-					<p class="list">CCL (2018,2019), CCKS (2016,2017), NLPCC-ICCPOL (2016)</p>
-					
-					<h3>PC Chair</h3>
-					<p class="list">IALP (2019)</p>
+					<p class="list">CCKS (2016), China Conference on Knowledge Graph and Semantic Computing</p>
+					<p class="list">NLPCC-ICCPOL (2016), The Fifth Conference on Natural Language Processing and Chinese Computing & The Twenty Fourth
+International Conference on Computer Processing of Oriental Languages</p>
 				</div>
 				
 				

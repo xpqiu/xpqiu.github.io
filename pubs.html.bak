@@ -6,7 +6,7 @@
 		<meta name="description" content="Xipeng Qiu, Publication, " >
 		<meta name="keywords" content="Xipeng Qiu, Machine Learning, Natural Language Processing, Computer Vision and Information Retrieval, Question Answering, Deep Learning" >
 		<title>Xipeng Qiu's Selected Publications  </title>
-		<link rel="stylesheet" href="my.css" type="text/css" />
+		<link rel="stylesheet" href="my-cn.css" type="text/css" />
 		<style type="text/css">
 			div.noshow { display: none;}
 		</style>
@@ -92,58 +92,38 @@
 			<!--pagecell1-->
 			<div id="top">
 
-				<h1><a href="en.html">Xipeng Qiu</a></h1>
-				Associate Professor, School of Computer Science, Fudan University
+				<h1><a href="index.html">邱锡鹏</a></h1> 副教授，复旦大学计算机科学技术学院，<a href="http://nlp.fudan.edu.cn" target="_blank">自然语言处理与深度学习组</a>
 
 
 					<div id="top-right">
-						<a href="pubs.html">Selected Publications</a> | [<a href="index.html"> CN </a>/<a href="en.html"> EN </a> ]
+						<a href="pubs.html">Selected Publiscations</a> | [<a href="index.html"> CN </a>/<a href="en.html"> EN </a> ]
 						</div>						
 					</div>
 
 					<div id="left">
-				<img src="xpqiu.jpg" alt="" /><!--width="285" height="325" /-->
-				<p>&nbsp;</p>
-				<div>
-					<h2>Link</h2>
-						<p ><a href="mailto:xpqiu@fudan.edu.cn" target="_blank"><i class="icon-share-alternitive"></i> Email</a></p>
-						<p ><a href="http://github.com/xpqiu" target="_blank"><i class="icon-github"></i> Github</a></p>
-						<p ><a href="http://weibo.com/xpqiu/" target="_blank"><i class="icon-weibo"></i> Weibo</a></p>
-						<p ><a href="https://www.zhihu.com/people/xpqiu" target="_blank"><i class="icon-zhihu-square"></i> Zhihu</a></p>
-						<h2>Contact</h2>
-						<p class="list1" >Computer Building, No. 825, Zhangheng Road, Shanghai, China </p>
+						<img src="xpqiu.jpg" alt="" /><!--width="285" height="325" /-->
+						<p>&nbsp;</p>
+						<div>
+							<h2>链接</h2>
+							<p ><a href="mailto:xpqiu@fudan.edu.cn" target="_blank"><i class="icon-share-alternitive"></i> Email</a></p>
+							<p ><a href="http://github.com/xpqiu" target="_blank"><i class="icon-github"></i> Github</a></p>
+							<p ><a href="http://weibo.com/xpqiu/" target="_blank"><i class="icon-weibo"></i> 微博</a></p>
+							<p ><a href="https://www.zhihu.com/people/xpqiu" target="_blank"><i class="icon-zhihu-square"></i> 知乎</a></p>
+							<h2>联系方式</h2>
+								<p> <strong>Email</strong>: <a href="mailto:xpqiu@fudan.edu.cn">xpqiu@fudan.edu.cn</a></p>
+								<p class="list1" >上海市浦东新区张衡路825号（复旦大学张江校区）计算机楼</p>
 
-					</div>
-			</div>
+								</div>
+							</div>
 
 							<div id="content">
 							
 <ol>
 	<p> A more comprehensive publication list: <a href="https://scholar.google.com/citations?user=Pq4Yp_kAAAAJ&hl=en">Google Scholar</a></p>
 <p><strong>[2020]</strong></p>	
-<li id="guo2020multiscale" class="entry">
-	Multi-Scale Self-Attention for Text Classification, <strong><font color="#ff6666"> AAAI</font></strong>, 2020. 
-    <a href="javascript:toggleInfo('guo2020multiscale','bibtex')">[BibTeX]</a>
-	<a href="https://arxiv.org/pdf/1912.00544.pdf">[PDF]</a> 
-    <br>Qipeng Guo, <strong>Xipeng Qiu</strong>, Pengfei Liu, Xiangyang Xue, Zheng Zhang.
-	 
-</li>
-<div id="bib_guo2020multiscale" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@inproceedings{guo2020multiscale,
-  author = {Qipeng Guo and Xipeng Qiu and Pengfei Liu and Xiangyang Xue and Zheng Zhang},
-  title = {Multi-Scale Self-Attention for Text Classification},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year = {2020}, 
-  url = {https://arxiv.org/abs/1912.00544}
-}
-</pre>
-</div>
 <li id="sun2020sparsing" class="entry">
 	Learning Sparse Sharing Architectures for Multiple Tasks, <strong><font color="#ff6666"> AAAI</font></strong>, 2020. 
-    <a href="javascript:toggleInfo('sun2020sparsing','bibtex')">[BibTeX]</a>
-	<a href="https://arxiv.org/pdf/1911.05034.pdf">[PDF]</a> <a href="https://github.com/choosewhatulike/sparse-sharing">[Code]</a>
+    <a href="javascript:toggleInfo('sun2020sparsing','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/1911.05034">[PDF]</a>
     <br>Tianxiang Sun, Yunfan Shao, Xiaonan Li, Pengfei Liu, Hang Yan, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
 	 
 </li>
@@ -154,14 +134,15 @@
   author = {Tianxiang Sun and Yunfan Shao and Xiaonan Li and Pengfei Liu and Hang Yan and Xipeng Qiu and Xuanjing Huang},
   title = {Learning Sparse Sharing Architectures for Multiple Tasks},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year = {2020}
+  year = {2020},
+  url = {https://arxiv.org/abs/1911.05034}
 }
 </pre>
-</div>
-<p><strong>[2019]</strong></p>
+</div>	
+<p><strong>[2019]</strong></p>	
 <li id="sun2019finetune" class="entry">
 	How to Fine-Tune BERT for Text Classification?, <strong><font color="#ff6666"> CCL (Best Paper Award)</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('sun2019finetune','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1905.05583.pdf">[PDF]</a>
+    <a href="javascript:toggleInfo('sun2019finetune','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/1905.05583">[PDF]</a>
     <br>Chi Sun, <strong>Xipeng Qiu</strong>, Yige Xu, Xuanjing Huang.
 	 
 </li>
@@ -173,42 +154,63 @@
   title = {How to Fine-Tune BERT for Text Classification?},
   booktitle = {Proceedings of China National Conference on Computational Linguistics},
   year = {2019},
-  pages = {194--206}, 
   url = {https://arxiv.org/abs/1905.05583}
 }
 </pre>
 </div>
 <li id="guo2019star" class="entry">
 	Star-Transformer, <strong><font color="#ff6666"> NAACL</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('guo2019star','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1902.09113.pdf">[PDF]</a>
-<div id="abs_guo2019star" class="abstract noshow">
-	<b>Abstract</b>: Although Transformer has achieved great successes on many NLP tasks, its heavy structure with fully-connected attention connections leads to dependencies on large training data. In this paper, we present Star-Transformer, a lightweight alternative by careful sparsification. To reduce model complexity, we replace the fully-connected structure with a star-shaped topology, in which every two non-adjacent nodes are connected through a shared relay node. Thus, complexity is reduced from quadratic to linear, while preserving the capacity to capture both local composition and long-range dependency. The experiments on four tasks (22 datasets) show that Star-Transformer achieved significant improvements against the standard Transformer for the modestly sized datasets.
-</div>
+    <a href="javascript:toggleInfo('guo2019star','bibtex')">[BibTeX]</a><a href="https://www.aclweb.org/anthology/N19-1133">[PDF]</a>
     <br>Qipeng Guo, <strong>Xipeng Qiu</strong>, Pengfei Liu, Yunfan Shao, Xiangyang Xue, Zheng Zhang.
 	<a href="javascript:toggleInfo('guo2019star','abstract')">[Abstract]</a> 
 </li>
+<div id="abs_guo2019star" class="abstract noshow">
+	<b>Abstract</b>: Although Transformer has achieved great successes on many NLP tasks, its heavy structure with fully-connected attention connections leads to dependencies on large training data. In this paper, we present Star-Transformer, a lightweight alternative by careful sparsification. To reduce model complexity, we replace the fully-connected structure with a star-shaped topology, in which every two non-adjacent nodes are connected through a shared relay node. Thus, complexity is reduced from quadratic to linear, while preserving the capacity to capture both local composition and long-range dependency. The experiments on four tasks (22 datasets) show that Star-Transformer achieved significant improvements against the standard Transformer for the modestly sized datasets.
+</div>
 <div id="bib_guo2019star" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{guo2019star,
   author = {Guo, Qipeng and Qiu, Xipeng and Liu, Pengfei and Shao, Yunfan and Xue, Xiangyang and Zhang, Zheng},
   title = {Star-Transformer},
-  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
   year = {2019},
-  pages = {1315--1325}, 
+  pages = {1315--1325},
   url = {https://www.aclweb.org/anthology/N19-1133}
+}
+</pre>
+</div>
+<li id="sun2019utilizing" class="entry">
+	Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence, <strong><font color="#ff6666"> NAACL</font></strong>, 2019. 
+    <a href="javascript:toggleInfo('sun2019utilizing','bibtex')">[BibTeX]</a><a href="https://www.aclweb.org/anthology/N19-1035">[PDF]</a>
+    <br>Chi Sun, Luyao Huang, <strong>Xipeng Qiu</strong>.
+	<a href="javascript:toggleInfo('sun2019utilizing','abstract')">[Abstract]</a> 
+</li>
+<div id="abs_sun2019utilizing" class="abstract noshow">
+	<b>Abstract</b>: Aspect-based sentiment analysis (ABSA), which aims to identify fine-grained opinion polarity towards a specific aspect, is a challenging subtask of sentiment analysis (SA). In this paper, we construct an auxiliary sentence from the aspect and convert ABSA to a sentence-pair classification task, such as question answering (QA) and natural language inference (NLI). We fine-tune the pre-trained model from BERT and achieve new state-of-the-art results on SentiHood and SemEval-2014 Task 4 datasets. The source codes are available at https://github.com/HSLCY/ABSA-BERT-pair.
+</div>
+<div id="bib_sun2019utilizing" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{sun2019utilizing,
+  author = {Sun, Chi and Huang, Luyao and Qiu, Xipeng},
+  title = {Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence},
+  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
+  year = {2019},
+  pages = {380--385},
+  url = {https://www.aclweb.org/anthology/N19-1035}
 }
 </pre>
 </div>
 <li id="sun2019vcwe" class="entry">
 	VCWE: Visual Character-Enhanced Word Embeddings, <strong><font color="#ff6666"> NAACL</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('sun2019vcwe','bibtex')">[BibTeX]</a><a href="https://www.aclweb.org/anthology/N19-1277.pdf">[PDF]</a>
-<div id="abs_sun2019vcwe" class="abstract noshow">
-	<b>Abstract</b>: Chinese is a logographic writing system, and the shape of Chinese characters contain rich syntactic and semantic information. In this paper, we propose a model to learn Chinese word embeddings via three-level composition: (1) a convolutional neural network to extract the intra-character compositionality from the visual shape of a character; (2) a recurrent neural network with self-attention to compose character representation into word embeddings; (3) the Skip-Gram framework to capture non-compositionality directly from the contextual information. Evaluations demonstrate the superior performance of our model on four tasks: word similarity, sentiment analysis, named entity recognition and part-of-speech tagging.
-</div>
+    <a href="javascript:toggleInfo('sun2019vcwe','bibtex')">[BibTeX]</a><a href="https://www.aclweb.org/anthology/N19-1277">[PDF]</a>
     <br>Chi Sun, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
 	<a href="javascript:toggleInfo('sun2019vcwe','abstract')">[Abstract]</a> 
 </li>
+<div id="abs_sun2019vcwe" class="abstract noshow">
+	<b>Abstract</b>: Chinese is a logographic writing system, and the shape of Chinese characters contain rich syntactic and semantic information. In this paper, we propose a model to learn Chinese word embeddings via three-level composition: (1) a convolutional neural network to extract the intra-character compositionality from the visual shape of a character; (2) a recurrent neural network with self-attention to compose character representation into word embeddings; (3) the Skip-Gram framework to capture non-compositionality directly from the contextual information. Evaluations demonstrate the superior performance of our model on four tasks: word similarity, sentiment analysis, named entity recognition and part-of-speech tagging.
+</div>
 <div id="bib_sun2019vcwe" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
@@ -217,52 +219,14 @@
   title = {VCWE: Visual Character-Enhanced Word Embeddings},
   booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
   year = {2019},
-  pages = {2710--2719}, 
+  pages = {2710--2719},
   url = {https://www.aclweb.org/anthology/N19-1277}
-}
-</pre>
-</div>
-<li id="dai2019style" class="entry">
-	Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation, <strong><font color="#ff6666"> ACL</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('dai2019style','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1905.05621.pdf">[PDF]</a><a href="https://github.com/fastnlp/style-transformer">[Code]</a>
-    <br>Ning Dai, Jianze Liang, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
-	 
-</li>
-<div id="bib_dai2019style" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@inproceedings{dai2019style,
-  author = {Ning Dai and Jianze Liang and Xipeng Qiu and Xuanjing Huang},
-  title = {Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation},
-  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
-  year = {2019},
-  pages = {5997--6007}, 
-  url = {https://www.aclweb.org/anthology/P19-1601/}
-}
-</pre>
-</div>
-<li id="zhong2019sum" class="entry">
-	Searching for Effective Neural Extractive Summarization: What Works and What's Next, <strong><font color="#ff6666"> ACL</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('zhong2019sum','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1907.03491.pdf">[PDF]</a><a href="https://github.com/fastnlp/fastNLP">[Code]</a>
-    <br>Ming Zhong, Pengfei Liu, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
-	 
-</li>
-<div id="bib_zhong2019sum" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@inproceedings{zhong2019sum,
-  author = {Ming Zhong and Pengfei Liu and Xipeng Qiu and Xuanjing Huang},
-  title = {Searching for Effective Neural Extractive Summarization: What Works and What's Next},
-  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
-  year = {2019},
-  pages = {1049--1058}, 
-  url = {https://www.aclweb.org/anthology/P19-1100/}
 }
 </pre>
 </div>
 <li id="gong2019switch" class="entry">
 	Switch-LSTMs for Multi-Criteria Chinese Word Segmentation, <strong><font color="#ff6666"> AAAI</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('gong2019switch','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1812.08033.pdf">[PDF]</a>
+    <a href="javascript:toggleInfo('gong2019switch','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/1802.08970">[PDF]</a>
     <br>Jingjing Gong, Xinchi Chen, Tao Gui, <strong>Xipeng Qiu</strong>.
 	 
 </li>
@@ -274,14 +238,13 @@
   title = {Switch-LSTMs for Multi-Criteria Chinese Word Segmentation},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
   year = {2019},
-  pages = {6457--6464}, 
-  url = {https://arxiv.org/abs/1812.08033}
+  url = {https://arxiv.org/abs/1802.08970}
 }
 </pre>
 </div>
 <li id="liu2019multi" class="entry">
-	Learning Multi-Task Communication with Message Passing for Sequence Learning, <strong><font color="#ff6666"> AAAI</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('liu2019multi','bibtex')">[BibTeX]</a><a href="https://aaai.org/ojs/index.php/AAAI/article/view/4346/4224.pdf">[PDF]</a>
+	Multi-task Learning over Graph Structures, <strong><font color="#ff6666"> AAAI</font></strong>, 2019. 
+    <a href="javascript:toggleInfo('liu2019multi','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/1802.08970">[PDF]</a>
     <br>Pengfei Liu, Jie Fu, Yue Dong, <strong>Xipeng Qiu</strong>, Jackie Chi Kit Cheung.
 	 
 </li>
@@ -290,96 +253,46 @@
 <pre>
 @inproceedings{liu2019multi,
   author = {Pengfei Liu and Jie Fu and Yue Dong and Xipeng Qiu and Jackie Chi Kit Cheung},
-  title = {Learning Multi-Task Communication with Message Passing for Sequence Learning},
+  title = {Multi-task Learning over Graph Structures},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
   year = {2019},
-  pages = {4360--4367}, 
-  url = {https://aaai.org/ojs/index.php/AAAI/article/view/4346}
+  url = {https://arxiv.org/abs/1802.08970}
 }
 </pre>
 </div>
-<li id="gong2019centrality" class="entry">
-	Text Information Aggregation with Centrality Attention,  SCIENCE CHINA Information Sciences <strong><font color="#ff6666">(SCIS)</font></strong> , 2019. 
-    <a href="javascript:toggleInfo('gong2019centrality','bibtex')">[BibTeX]</a>
-    <br>JingJing Gong, Hang Yan, Yining Zheng, Qipeng Guo, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
-	
+<li id="dai2019style" class="entry">
+	Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation, <strong><font color="#ff6666"> ACL</font></strong>, 2019. 
+    <a href="javascript:toggleInfo('dai2019style','bibtex')">[BibTeX]</a><a href="http://aclweb.org/anthology/P/P17/P17-1001.pdf">[PDF]</a>
+    <br>Ning Dai, Jianze Liang, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
+	 
 </li>
-<div id="bib_gong2019centrality" class="bibtex noshow">
+<div id="bib_dai2019style" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
-@article{gong2019centrality,
-  author = {JingJing Gong and Hang Yan and Yining Zheng and Qipeng Guo and Xipeng Qiu and Xuanjing Huang},
-  title = {Text Information Aggregation with Centrality Attention},
-  journal = {SCIENCE CHINA Information Sciences},
-  year = {2019}
+@inproceedings{dai2019style,
+  author = {Ning Dai and Jianze Liang and Xipeng Qiu and Xuanjing Huang},
+  title = {Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation},
+  booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics},
+  year = {2019},
+  url = {http://aclweb.org/anthology/P/P17/P17-1001.pdf}
 }
 </pre>
 </div>
-<li id="guo2019low" class="entry">
-	Low-rank and Locality Constrained Self-Attention for Sequence Modeling,  IEEE/ACM Transactions on Audio, Speech, and Language Processing <strong><font color="#ff6666">(TASLP)</font></strong> , 2019. 
-    <a href="javascript:toggleInfo('guo2019low','bibtex')">[BibTeX]</a>
-    <br>Qipeng Guo, <strong>Xipeng Qiu</strong>, Xiangyang Xue, Zheng Zhang.
-	
+<li id="zhong2019sum" class="entry">
+	Searching for Effective Neural Extractive Summarization: What Works and What's Next, <strong><font color="#ff6666"> ACL</font></strong>, 2019. 
+    <a href="javascript:toggleInfo('zhong2019sum','bibtex')">[BibTeX]</a><a href="http://aclweb.org/anthology/P/P17/P17-1001.pdf">[PDF]</a>
+    <br>Ming Zhong, Pengfei Liu, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
+	 
 </li>
-<div id="bib_guo2019low" class="bibtex noshow">
+<div id="bib_zhong2019sum" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
-@article{guo2019low,
-  author = {Guo, Qipeng and Qiu, Xipeng and Xue, Xiangyang and Zhang, Zheng},
-  title = {Low-rank and Locality Constrained Self-Attention for Sequence Modeling},
-  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
-  year = {2019}
-}
-</pre>
-</div>
-<li id="ma2019co" class="entry">
-	Co-attention Memory Network for Multimodal Microblog's Hashtag Recommendation,  IEEE Transactions on Knowledge and Data Engineering <strong><font color="#ff6666">(TKDE)</font></strong> , 2019. 
-    <a href="javascript:toggleInfo('ma2019co','bibtex')">[BibTeX]</a>
-    <br>Renfeng Ma, <strong>Xipeng Qiu</strong>, Qi Zhang, Xiangkun Hu, Yu-Gang Jiang, Xuanjing Huang.
-	
-</li>
-<div id="bib_ma2019co" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@article{ma2019co,
-  author = {Ma, Renfeng and Qiu, Xipeng and Zhang, Qi and Hu, Xiangkun and Jiang, Yu-Gang and Huang, Xuanjing},
-  title = {Co-attention Memory Network for Multimodal Microblog's Hashtag Recommendation},
-  journal = {IEEE Transactions on Knowledge and Data Engineering},
-  year = {2019}
-}
-</pre>
-</div>
-<li id="qun2019chinese" class="entry">
-	Chinese Word Segmentation via BiLSTM+Semi-CRF with Relay Node,  Journal of Computer Science and Technology <strong><font color="#ff6666">(JCST)</font></strong> , 2019. 
-    <a href="javascript:toggleInfo('qun2019chinese','bibtex')">[BibTeX]</a>
-    <br>Nuo Qun, Hang Yan, <strong>Xipeng Qiu</strong>, Xuanjing Huang.
-	
-</li>
-<div id="bib_qun2019chinese" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@article{qun2019chinese,
-  author = {Nuo Qun and Hang Yan and Xipeng Qiu and Xuanjing Huang},
-  title = {Chinese Word Segmentation via BiLSTM+Semi-CRF with Relay Node},
-  journal = {Journal of Computer Science and Technology},
-  year = {2019}
-}
-</pre>
-</div>
-<li id="zhao2019sequence" class="entry">
-	Sequence Labeling with Deep Gated Dual Path CNN,  IEEE/ACM Transactions on Audio, Speech, and Language Processing <strong><font color="#ff6666">(TASLP)</font></strong> , 2019. 
-    <a href="javascript:toggleInfo('zhao2019sequence','bibtex')">[BibTeX]</a>
-    <br>Lujun Zhao, <strong>Xipeng Qiu</strong>, Qi Zhang, Xuanjing Huang.
-	
-</li>
-<div id="bib_zhao2019sequence" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@article{zhao2019sequence,
-  author = {Zhao, Lujun and Qiu, Xipeng and Zhang, Qi and Huang, Xuanjing},
-  title = {Sequence Labeling with Deep Gated Dual Path CNN},
-  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
-  year = {2019}
+@inproceedings{zhong2019sum,
+  author = {Ming Zhong and Pengfei Liu and Xipeng Qiu and Xuanjing Huang},
+  title = {Searching for Effective Neural Extractive Summarization: What Works and What's Next},
+  booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics},
+  year = {2019},
+  url = {http://aclweb.org/anthology/P/P17/P17-1001.pdf}
 }
 </pre>
 </div>
