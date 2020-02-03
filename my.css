@@ -3,7 +3,7 @@
 /* HTML tag styles                             */
 /***********************************************/
 body{
-	font-family: Arial,sans-serif;
+	font-family: Arial,'Microsoft YaHei',sans-serif;
 	color: #333333;
 	line-height: 1.166;	
 	margin: 0px;
@@ -25,28 +25,28 @@ a:hover{
 /************** header tag styles **************/
 
 h1{
- font: bold 200% Arial,sans-serif;
+ font: bold 200% Arial,'Microsoft YaHei',sans-serif;
  color: #334d55;
  margin: 0px;
  padding: 0px;
 }
 
 h2{
- font: bold 150% Arial,sans-serif;
+ font: bold 150% Arial,SimHei,sans-serif;
  color: #006699;
  margin: 0px;
  padding: 5px;
 }
 
 .left h2{
- font: bold 100% Arial,sans-serif;
+ font: bold 100% Arial,SimHei,sans-serif;
  %color: #006699;
  margin: 0px;
  padding: 5px;
 }
 
 h3{
- font: bold 120% Arial,sans-serif;
+ font: bold 120% Arial,SimHei,sans-serif;
  color: #334d55;
  margin: 10px;
  margin-left: 30px;
@@ -162,6 +162,10 @@ p {
 	margin-right: 0px
 	padding: 10px 0px 0px 10px;
 	font-size: 100%;
+}
+
+.author {
+    color: #777777;
 }
 
 
