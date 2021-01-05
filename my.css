@@ -87,6 +87,15 @@ div#left {
 	background-color: #ffffff;
 }
 
+div#right {
+	position:absolute;
+    right:0;
+    top:3cm;
+	width:8cm;
+	border:0.5px solid;
+	background-color: #ffffff;
+}
+
 div#content {
 	float: right ;
 	width: 75% ;
