@@ -63,7 +63,7 @@ h3{
 	top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width:1100px;
+	width:1200px;
 	background-color: #ffffff;
 }
 
@@ -80,28 +80,31 @@ div#top-right{
 
 div#left {
 	float: left ;
-	width: 25% ;
+	width: 20% ;
 	padding: 0px 0px 0px 0px;
 	margin:10px 0px 0px 0px;
 	%	border: 1px solid #ccd2d2;
 	background-color: #ffffff;
 }
 
-div#right {
-	position:absolute;
+
+
+div#content {
+	float: right ;
+	width: 80% ;
+	%padding: 0px 10px 0px 0px;
+	margin:10px 0px 0px 0px;
+	%border: 1px solid #ccd2d2;
+	background-color: #ffffff;
+}
+
+div#content-right {
+	%position:absolute;
+	float: right ;
     right:0;
     top:3cm;
 	width:4cm;
 	border:0.5px solid;
-	background-color: #ffffff;
-}
-
-div#content {
-	float: right ;
-	width: 75% ;
-	%padding: 0px 10px 0px 0px;
-	margin:10px 0px 0px 0px;
-	%border: 1px solid #ccd2d2;
 	background-color: #ffffff;
 }
 
