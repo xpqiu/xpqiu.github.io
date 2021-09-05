@@ -120,6 +120,206 @@
 							
 <ol>
 	<p> A more comprehensive publication list: <a href="https://scholar.google.com/citations?user=Pq4Yp_kAAAAJ&hl=en">Google Scholar</a></p>
+<p><strong>[2021]</strong></p>	
+<li id="dai-etal-2021-syntax" class="entry">
+	Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa, <strong><font color="#ff6666"> NAACL</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('dai-etal-2021-syntax','bibtex')">[BibTeX]</a><a href="https://www.aclweb.org/anthology/2021.naacl-main.146.pdf">[PDF]</a><a href="javascript:toggleInfo('dai-etal-2021-syntax','abstract')">[Abstract]</a> 
+<div class="author">Junqi Dai, Hang Yan, Tianxiang Sun, Pengfei Liu, <strong>Xipeng Qiu</strong>.</div>
+</li>
+<div id="bib_dai-etal-2021-syntax" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{dai-etal-2021-syntax,
+  author = {Dai, Junqi and Yan, Hang and Sun, Tianxiang and Liu, Pengfei and Qiu, Xipeng},
+  title = {Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year = {2021},
+  pages = {1816--1829}, 
+  url = {https://www.aclweb.org/anthology/2021.naacl-main.146}
+}
+</pre>
+</div>
+
+<div id="abs_dai-etal-2021-syntax" class="abstract noshow">
+	<b>Abstract</b>: Aspect-based Sentiment Analysis (ABSA), aiming at predicting the polarities for aspects, is a fine-grained task in the field of sentiment analysis. Previous work showed syntactic information, e.g. dependency trees, can effectively improve the ABSA performance. Recently, pre-trained models (PTMs) also have shown their effectiveness on ABSA. Therefore, the question naturally arises whether PTMs contain sufficient syntactic information for ABSA so that we can obtain a good ABSA model only based on PTMs. In this paper, we firstly compare the induced trees from PTMs and the dependency parsing trees on several popular models for the ABSA task, showing that the induced tree from fine-tuned RoBERTa (FT-RoBERTa) outperforms the parser-provided tree. The further analysis experiments reveal that the FT-RoBERTa Induced Tree is more sentiment-word-oriented and could benefit the ABSA task. The experiments also show that the pure RoBERTa-based model can outperform or approximate to the previous SOTA performances on six datasets across four languages since it implicitly incorporates the task-oriented syntactic information.
+</div>
+<li id="li-etal-2021-accelerating" class="entry">
+	Accelerating BERT Inference for Sequence Labeling via Early-Exit, <strong><font color="#ff6666"> ACL</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('li-etal-2021-accelerating','bibtex')">[BibTeX]</a><a href="https://aclanthology.org/2021.acl-long.16.pdf">[PDF]</a><a href="javascript:toggleInfo('li-etal-2021-accelerating','abstract')">[Abstract]</a> 
+<div class="author">Xiaonan Li, Yunfan Shao, Tianxiang Sun, Hang Yan, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
+</li>
+<div id="bib_li-etal-2021-accelerating" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{li-etal-2021-accelerating,
+  author = {Li, Xiaonan and Shao, Yunfan and Sun, Tianxiang and Yan, Hang and Qiu, Xipeng and Huang, Xuanjing},
+  title = {Accelerating BERT Inference for Sequence Labeling via Early-Exit},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  year = {2021},
+  pages = {189--199}, 
+  url = {https://aclanthology.org/2021.acl-long.16}
+}
+</pre>
+</div>
+
+<div id="abs_li-etal-2021-accelerating" class="abstract noshow">
+	<b>Abstract</b>: Both performance and efficiency are crucial factors for sequence labeling tasks in many real-world scenarios. Although the pre-trained models (PTMs) have significantly improved the performance of various sequence labeling tasks, their computational cost is expensive. To alleviate this problem, we extend the recent successful early-exit mechanism to accelerate the inference of PTMs for sequence labeling tasks. However, existing early-exit mechanisms are specifically designed for sequence-level tasks, rather than sequence labeling. In this paper, we first propose a simple extension of sentence-level early-exit for sequence labeling tasks. To further reduce the computational cost, we also propose a token-level early-exit mechanism that allows partial tokens to exit early at different layers. Considering the local dependency inherent in sequence labeling, we employed a window-based criterion to decide for a token whether or not to exit. The token-level early-exit brings the gap between training and inference, so we introduce an extra self-sampling fine-tuning stage to alleviate it. The extensive experiments on three popular sequence labeling tasks show that our approach can save up to 66%鈭�75% inference cost with minimal performance degradation. Compared with competitive compressed models such as DistilBERT, our approach can achieve better performance under the same speed-up ratios of 2{\times}, 3{\times}, and 4{\times}.
+</div>
+<li id="yan-etal-2021-unified" class="entry">
+	A Unified Generative Framework for Aspect-based Sentiment Analysis, <strong><font color="#ff6666"> ACL</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('yan-etal-2021-unified','bibtex')">[BibTeX]</a><a href="https://aclanthology.org/2021.acl-long.188.pdf">[PDF]</a><a href="javascript:toggleInfo('yan-etal-2021-unified','abstract')">[Abstract]</a> 
+<div class="author">Hang Yan, Junqi Dai, Tuo Ji, <strong>Xipeng Qiu</strong>, Zheng Zhang.</div>
+</li>
+<div id="bib_yan-etal-2021-unified" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{yan-etal-2021-unified,
+  author = {Yan, Hang and Dai, Junqi and Ji, Tuo and Qiu, Xipeng and Zhang, Zheng},
+  title = {A Unified Generative Framework for Aspect-based Sentiment Analysis},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  year = {2021},
+  pages = {2416--2429}, 
+  url = {https://aclanthology.org/2021.acl-long.188}
+}
+</pre>
+</div>
+
+<div id="abs_yan-etal-2021-unified" class="abstract noshow">
+	<b>Abstract</b>: Aspect-based Sentiment Analysis (ABSA) aims to identify the aspect terms, their corresponding sentiment polarities, and the opinion terms. There exist seven subtasks in ABSA. Most studies only focus on the subsets of these subtasks, which leads to various complicated ABSA models while hard to solve these subtasks in a unified framework. In this paper, we redefine every subtask target as a sequence mixed by pointer indexes and sentiment class indexes, which converts all ABSA subtasks into a unified generative formulation. Based on the unified formulation, we exploit the pre-training sequence-to-sequence model BART to solve all ABSA subtasks in an end-to-end framework. Extensive experiments on four ABSA datasets for seven subtasks demonstrate that our framework achieves substantial performance gain and provides a real unified end-to-end solution for the whole ABSA subtasks, which could benefit multiple tasks.
+</div>
+<li id="yan-etal-2021-unified-generative" class="entry">
+	A Unified Generative Framework for Various NER Subtasks, <strong><font color="#ff6666"> ACL</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('yan-etal-2021-unified-generative','bibtex')">[BibTeX]</a><a href="https://aclanthology.org/2021.acl-long.451.pdf">[PDF]</a><a href="javascript:toggleInfo('yan-etal-2021-unified-generative','abstract')">[Abstract]</a> 
+<div class="author">Hang Yan, Tao Gui, Junqi Dai, Qipeng Guo, Zheng Zhang, <strong>Xipeng Qiu</strong>.</div>
+</li>
+<div id="bib_yan-etal-2021-unified-generative" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{yan-etal-2021-unified-generative,
+  author = {Yan, Hang and Gui, Tao and Dai, Junqi and Guo, Qipeng and Zhang, Zheng and Qiu, Xipeng},
+  title = {A Unified Generative Framework for Various NER Subtasks},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  year = {2021},
+  pages = {5808--5822}, 
+  url = {https://aclanthology.org/2021.acl-long.451}
+}
+</pre>
+</div>
+
+<div id="abs_yan-etal-2021-unified-generative" class="abstract noshow">
+	<b>Abstract</b>: Named Entity Recognition (NER) is the task of identifying spans that represent entities in sentences. Whether the entity spans are nested or discontinuous, the NER task can be categorized into the flat NER, nested NER, and discontinuous NER subtasks. These subtasks have been mainly solved by the token-level sequence labelling or span-level classification. However, these solutions can hardly tackle the three kinds of NER subtasks concurrently. To that end, we propose to formulate the NER subtasks as an entity span sequence generation task, which can be solved by a unified sequence-to-sequence (Seq2Seq) framework. Based on our unified framework, we can leverage the pre-trained Seq2Seq model to solve all three kinds of NER subtasks without the special design of the tagging schema or ways to enumerate spans. We exploit three types of entity representations to linearize entities into a sequence. Our proposed framework is easy-to-implement and achieves state-of-the-art (SoTA) or near SoTA performance on eight English NER datasets, including two flat NER datasets, three nested NER datasets, and three discontinuous NER datasets.
+</div>
+<li id="geng-etal-2021-fasthan" class="entry">
+	fastHan: A BERT-based Multi-Task Toolkit for Chinese NLP, <strong><font color="#ff6666"> ACL</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('geng-etal-2021-fasthan','bibtex')">[BibTeX]</a><a href="https://aclanthology.org/2021.acl-demo.12.pdf">[PDF]</a><a href="javascript:toggleInfo('geng-etal-2021-fasthan','abstract')">[Abstract]</a> 
+<div class="author">Zhichao Geng, Hang Yan, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
+</li>
+<div id="bib_geng-etal-2021-fasthan" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{geng-etal-2021-fasthan,
+  author = {Geng, Zhichao and Yan, Hang and Qiu, Xipeng and Huang, Xuanjing},
+  title = {fastHan: A BERT-based Multi-Task Toolkit for Chinese NLP},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations},
+  year = {2021},
+  pages = {99--106}, 
+  url = {https://aclanthology.org/2021.acl-demo.12}
+}
+</pre>
+</div>
+
+<div id="abs_geng-etal-2021-fasthan" class="abstract noshow">
+	<b>Abstract</b>: We present fastHan, an open-source toolkit for four basic tasks in Chinese natural language processing: Chinese word segmentation (CWS), Part-of-Speech (POS) tagging, named entity recognition (NER), and dependency parsing. The backbone of fastHan is a multi-task model based on a pruned BERT, which uses the first 8 layers in BERT. We also provide a 4-layer base model compressed from the 8-layer model. The joint-model is trained and evaluated on 13 corpora of four tasks, yielding near state-of-the-art (SOTA) performance in dependency parsing and NER, achieving SOTA performance in CWS and POS. Besides, fastHan's transferability is also strong, performing much better than popular segmentation tools on a non-training corpus. To better meet the need of practical application, we allow users to use their own labeled data to further fine-tune fastHan. In addition to its small size and excellent performance, fastHan is user-friendly. Implemented as a python package, fastHan isolates users from the internal technical details and is convenient to use. The project is released on Github.
+</div>
+<li id="An_Zhong_Chen_Wang_Qiu_Huang_2021" class="entry">
+	Enhancing Scientific Papers Summarization with Citation Graph, <strong><font color="#ff6666"> AAAI</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('An_Zhong_Chen_Wang_Qiu_Huang_2021','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/2104.03057.pdf">[PDF]</a> 
+<div class="author">Chenxin An, Ming Zhong, Yiran Chen, Danqing Wang, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
+</li>
+<div id="bib_An_Zhong_Chen_Wang_Qiu_Huang_2021" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{An_Zhong_Chen_Wang_Qiu_Huang_2021,
+  author = {An, Chenxin and Zhong, Ming and Chen, Yiran and Wang, Danqing and Qiu, Xipeng and Huang, Xuanjing},
+  title = {Enhancing Scientific Papers Summarization with Citation Graph},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year = {2021},
+  volume = {35},
+  number = {14},
+  pages = {12498-12506}, 
+  url = {https://ojs.aaai.org/index.php/AAAI/article/view/17482}
+}
+</pre>
+</div>
+
+<li id="Li_Qiu_2021" class="entry">
+	Token-Aware Virtual Adversarial Training in Natural Language Understanding, <strong><font color="#ff6666"> AAAI</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('Li_Qiu_2021','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/2004.14543.pdf">[PDF]</a> 
+<div class="author">Linyang Li, <strong>Xipeng Qiu</strong>.</div>
+</li>
+<div id="bib_Li_Qiu_2021" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{Li_Qiu_2021,
+  author = {Li, Linyang and Qiu, Xipeng},
+  title = {Token-Aware Virtual Adversarial Training in Natural Language Understanding},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year = {2021},
+  volume = {35},
+  number = {9},
+  pages = {8410-8418}, 
+  url = {https://ojs.aaai.org/index.php/AAAI/article/view/17022}
+}
+</pre>
+</div>
+
+<li id="Liang_Zhao_Wang_Qiu_Li_2021" class="entry">
+	Finding Sparse Structures for Domain Specific Neural Machine Translation, <strong><font color="#ff6666"> AAAI</font></strong>, 2021. 
+    <a href="javascript:toggleInfo('Liang_Zhao_Wang_Qiu_Li_2021','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/2012.10586.pdf">[PDF]</a> 
+<div class="author">Jianze Liang, Chengqi Zhao, Mingxuan Wang, <strong>Xipeng Qiu</strong>, Lei Li.</div>
+</li>
+<div id="bib_Liang_Zhao_Wang_Qiu_Li_2021" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{Liang_Zhao_Wang_Qiu_Li_2021,
+  author = {Liang, Jianze and Zhao, Chengqi and Wang, Mingxuan and Qiu, Xipeng and Li, Lei},
+  title = {Finding Sparse Structures for Domain Specific Neural Machine Translation},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year = {2021},
+  volume = {35},
+  number = {15},
+  pages = {13333-13342}, 
+  url = {https://ojs.aaai.org/index.php/AAAI/article/view/17574}
+}
+</pre>
+</div>
+
+<li id="gong2020text" class="entry">
+	Text Information Aggregation with Centrality Attention,  SCIENCE CHINA Information Sciences <strong><font color="#ff6666">(SCIS)</font></strong> , 2021. 
+    <a href="javascript:toggleInfo('gong2020text','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11432-019-1519-6">[DOI]</a><a href="./pdf/gong2020text.pdf">[PDF]</a>
+    <div class="author">Jingjing Gong, Hang Yan, Yining Zheng, Qipeng Guo, <strong>Xipeng Qiu</strong>, XuanJing Huang.</div>
+	
+</li>
+<div id="bib_gong2020text" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@article{gong2020text,
+  author = {Jingjing Gong and Hang Yan and Yining Zheng and Qipeng Guo and Xipeng Qiu and XuanJing Huang},
+  title = {Text Information Aggregation with Centrality Attention},
+  journal = {SCIENCE CHINA Information Sciences},
+  year = {2021},
+  doi = {https://doi.org/10.1007/s11432-019-1519-6}
+}
+</pre>
+</div>
+<li id="guo2021scis-syntax-gen" class="entry">
+	Syntax-guided text generation via graph neural network,  Science China Information Sciences <strong><font color="#ff6666">(SCIS)</font></strong> , Vol. 64(5), pp. 152102, 2021. 
+    <a href="javascript:toggleInfo('guo2021scis-syntax-gen','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11432-019-2740-1">[DOI]</a><a href="https://link.springer.com/content/pdf/10.1007/s11432-019-2740-1.pdf">[PDF]</a>
+<div id="abs_guo2021scis-syntax-gen" class="abstract noshow">
+	<b>Abstract</b>: Text generation is a fundamental and important task in natural language processing. Most of the existing models generate text in a sequential manner and have difficulty modeling complex dependency structures. In this paper, we treat the text generation task as a graph generation problem exploiting both syntactic and word-ordering relationships. Leveraging the framework of the graph neural network, we propose the word graph model. During the process, the model builds a sentence incrementally and maintains syntactic integrity via a syntax-driven, top-down, breadth-first generation process. Experimental results on both synthetic and real text generation tasks show the efficacy of our approach.</td>
+</div>
+    <div class="author">Qipeng Guo, <strong>Xipeng Qiu</strong>, Xiangyang Xue, Zheng Zhang.</div>
+</li>
 <p><strong>[2020]</strong></p>	
 <li id="jin-etal-2020-genwiki" class="entry">
 	GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation, <strong><font color="#ff6666"> COLING</font></strong>, 2020. 
