@@ -207,6 +207,33 @@
 
 <ol>
 
+
+<li id="Sun2024MOSS" class="entry">
+	<strong><font color="#0071BF">MOSS: An Open Conversational Large Language Model</font></strong>, 
+	 Machine Intelligence Research , 2024. 
+    <a href="javascript:toggleInfo('Sun2024MOSS','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11633-024-1502-8">[DOI]</a><a href="./pdf/MOSS.pdf">[PDF]</a>
+<div id="abs_Sun2024MOSS" class="abstract noshow">
+	<b>Abstract</b>: Conversational large language models (LLMs) such as ChatGPT and GPT-4 have recently exhibited remarkable capabilities across various domains, capturing widespread attention from the public. To facilitate this line of research, in this paper, we report the development of MOSS, an open-sourced conversational LLM that contains 16 B parameters and can perform a variety of instructions in multi-turn interactions with humans. The base model of MOSS is pre-trained on large-scale unlabeled English, Chinese, and code data. To optimize the model for dialogue, we generate 1.1 M synthetic conversations based on user prompts collected through our earlier versions of the model API. We then perform preference-aware training on preference data annotated from AI feedback. Evaluation results on real-world use cases and academic benchmarks demonstrate the effectiveness of the proposed approaches. In addition, we present an effective practice to augment MOSS with several external tools. Through the development of MOSS, we have established a complete technical roadmap for large language models from pre-training, supervised fine-tuning to alignment, verifying the feasibility of chatGPT under resource-limited conditions and providing a reference for both the academic and industrial communities. Model weights and code are publicly available at https://github.com/OpenMOSS/MOSS.</td>
+</div>
+    <a href="javascript:toggleInfo('Sun2024MOSS','abstract')">[Abstract]</a>
+    
+    <div class="author">Tianxiang Sun, Xiaotian Zhang, Zhengfu He, Peng Li, Qinyuan Cheng, Xiangyang Liu, Hang Yan, Yunfan Shao, Qiong Tang, Shiduo Zhang, Xingjian Zhao, Ke Chen, Yining Zheng, Zhejian Zhou, Ruixiao Li, Jun Zhan, Yunhua Zhou, Linyang Li, Xiaogui Yang, Lingling Wu, Zhangyue Yin, Xuanjing Huang, Yu-Gang Jiang, <strong>Xipeng Qiu</strong>.</div>
+	
+</li>
+<div id="bib_Sun2024MOSS" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@article{Sun2024MOSS,
+  author = {Sun, Tianxiang and Zhang, Xiaotian and He, Zhengfu and Li, Peng and Cheng, Qinyuan and Liu, Xiangyang and Yan, Hang and Shao, Yunfan and Tang, Qiong and Zhang, Shiduo and Zhao, Xingjian and Chen, Ke and Zheng, Yining and Zhou, Zhejian and Li, Ruixiao and Zhan, Jun and Zhou, Yunhua and Li, Linyang and Yang, Xiaogui and Wu, Lingling and Yin, Zhangyue and Huang, Xuanjing and Jiang, Yu-Gang and Qiu, Xipeng},
+  title = {MOSS: An Open Conversational Large Language Model},
+  journal = {Machine Intelligence Research},
+  year = {2024},
+  doi = {https://doi.org/10.1007/s11633-024-1502-8}
+}
+</pre>
+</div>
+
+
 <li id="11" class="entry">
 	<strong><font color="#0071BF">CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation</font></strong>, 
 	 SCIENCE CHINA Information Sciences <strong><font color="#ff6666">(SCIS)</font></strong> , 2022. 
@@ -345,7 +372,7 @@
 </div>
 
 <div id="abs_li-etal-2021-accelerating" class="abstract noshow">
-	<b>Abstract</b>: Both performance and efficiency are crucial factors for sequence labeling tasks in many real-world scenarios. Although the pre-trained models (PTMs) have significantly improved the performance of various sequence labeling tasks, their computational cost is expensive. To alleviate this problem, we extend the recent successful early-exit mechanism to accelerate the inference of PTMs for sequence labeling tasks. However, existing early-exit mechanisms are specifically designed for sequence-level tasks, rather than sequence labeling. In this paper, we first propose a simple extension of sentence-level early-exit for sequence labeling tasks. To further reduce the computational cost, we also propose a token-level early-exit mechanism that allows partial tokens to exit early at different layers. Considering the local dependency inherent in sequence labeling, we employed a window-based criterion to decide for a token whether or not to exit. The token-level early-exit brings the gap between training and inference, so we introduce an extra self-sampling fine-tuning stage to alleviate it. The extensive experiments on three popular sequence labeling tasks show that our approach can save up to 66%鈭�75% inference cost with minimal performance degradation. Compared with competitive compressed models such as DistilBERT, our approach can achieve better performance under the same speed-up ratios of 2{\times}, 3{\times}, and 4{\times}.
+	<b>Abstract</b>: Both performance and efficiency are crucial factors for sequence labeling tasks in many real-world scenarios. Although the pre-trained models (PTMs) have significantly improved the performance of various sequence labeling tasks, their computational cost is expensive. To alleviate this problem, we extend the recent successful early-exit mechanism to accelerate the inference of PTMs for sequence labeling tasks. However, existing early-exit mechanisms are specifically designed for sequence-level tasks, rather than sequence labeling. In this paper, we first propose a simple extension of sentence-level early-exit for sequence labeling tasks. To further reduce the computational cost, we also propose a token-level early-exit mechanism that allows partial tokens to exit early at different layers. Considering the local dependency inherent in sequence labeling, we employed a window-based criterion to decide for a token whether or not to exit. The token-level early-exit brings the gap between training and inference, so we introduce an extra self-sampling fine-tuning stage to alleviate it. The extensive experiments on three popular sequence labeling tasks show that our approach can save up to 66%鈭 75% inference cost with minimal performance degradation. Compared with competitive compressed models such as DistilBERT, our approach can achieve better performance under the same speed-up ratios of 2{\times}, 3{\times}, and 4{\times}.
 </div>
 <li id="yan-etal-2021-unified-generative" class="entry">
 	<strong><font color="#0071BF">A Unified Generative Framework for Various NER Subtasks</font></strong>, 
@@ -443,7 +470,7 @@
 </div>
 
 <div id="abs_li-etal-2021-accelerating" class="abstract noshow">
-	<b>Abstract</b>: Both performance and efficiency are crucial factors for sequence labeling tasks in many real-world scenarios. Although the pre-trained models (PTMs) have significantly improved the performance of various sequence labeling tasks, their computational cost is expensive. To alleviate this problem, we extend the recent successful early-exit mechanism to accelerate the inference of PTMs for sequence labeling tasks. However, existing early-exit mechanisms are specifically designed for sequence-level tasks, rather than sequence labeling. In this paper, we first propose a simple extension of sentence-level early-exit for sequence labeling tasks. To further reduce the computational cost, we also propose a token-level early-exit mechanism that allows partial tokens to exit early at different layers. Considering the local dependency inherent in sequence labeling, we employed a window-based criterion to decide for a token whether or not to exit. The token-level early-exit brings the gap between training and inference, so we introduce an extra self-sampling fine-tuning stage to alleviate it. The extensive experiments on three popular sequence labeling tasks show that our approach can save up to 66%鈭�75% inference cost with minimal performance degradation. Compared with competitive compressed models such as DistilBERT, our approach can achieve better performance under the same speed-up ratios of 2{\times}, 3{\times}, and 4{\times}.
+	<b>Abstract</b>: Both performance and efficiency are crucial factors for sequence labeling tasks in many real-world scenarios. Although the pre-trained models (PTMs) have significantly improved the performance of various sequence labeling tasks, their computational cost is expensive. To alleviate this problem, we extend the recent successful early-exit mechanism to accelerate the inference of PTMs for sequence labeling tasks. However, existing early-exit mechanisms are specifically designed for sequence-level tasks, rather than sequence labeling. In this paper, we first propose a simple extension of sentence-level early-exit for sequence labeling tasks. To further reduce the computational cost, we also propose a token-level early-exit mechanism that allows partial tokens to exit early at different layers. Considering the local dependency inherent in sequence labeling, we employed a window-based criterion to decide for a token whether or not to exit. The token-level early-exit brings the gap between training and inference, so we introduce an extra self-sampling fine-tuning stage to alleviate it. The extensive experiments on three popular sequence labeling tasks show that our approach can save up to 66%鈭 75% inference cost with minimal performance degradation. Compared with competitive compressed models such as DistilBERT, our approach can achieve better performance under the same speed-up ratios of 2{\times}, 3{\times}, and 4{\times}.
 </div>
 
 <li id="liu2021towards" class="entry">
