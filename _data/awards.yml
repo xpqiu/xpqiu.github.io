@@ -1,0 +1,52 @@
+# Academic awards. Most recent first.
+academic:
+  - year: 2025
+    text_zh: '中国人工智能学会 <span class="hl">吴文俊人工智能科学技术奖自然科学一等奖</span>（第一完成人）'
+    text_en: 'Wu Wenjun AI Science and Technology Award, First Prize in Natural Science (First Contributor), CAAI'
+  - year: 2024
+    text_zh: 'ACL 2024 杰出论文奖 — <a href="https://arxiv.org/abs/2307.11088">L-Eval: Instituting Standardized Evaluation for Long-Context Language Models</a>'
+    text_en: 'ACL 2024 Outstanding Paper Award — <a href="https://arxiv.org/abs/2307.11088">L-Eval</a>'
+  - year: 2024
+    text_zh: '<span class="hl">CCF-ACM 青年科技奖</span>（CCF-ACM Award for Artificial Intelligence，每年 1 人）'
+    text_en: 'CCF-ACM Award for Artificial Intelligence (one recipient per year)'
+  - year: 2023
+    text_zh: '上海市计算机学会 青年科技英才（每年 1 人）'
+    text_en: 'Shanghai Computer Society Young Scientist Award (one recipient per year)'
+  - year: 2022
+    text_zh: '中国中文信息学会 <span class="hl">钱伟长中文信息处理科学技术奖一等奖</span>（第一完成人）'
+    text_en: 'Qian Weichang Chinese Information Processing Award, First Prize (First Contributor)'
+  - year: 2021
+    text_zh: '《中国科学：技术科学》2021 年度高影响力论文奖 — <a href="https://doi.org/10.1007/s11431-020-1647-3">Pre-trained Models for Natural Language Processing: A Survey</a>'
+    text_en: 'High-Impact Paper Award, SCIENCE CHINA Technological Sciences 2021 — <a href="https://doi.org/10.1007/s11431-020-1647-3">Pre-trained Models for NLP: A Survey</a>'
+  - year: 2020
+    text_zh: '4 篇论文入选 PaperDigest 发布的 IJCAI/ACL/EMNLP 最有影响力论文（各会议每年 10 篇）'
+    text_en: '4 papers selected as PaperDigest Most Influential Papers in IJCAI/ACL/EMNLP'
+  - year: 2019
+    text_zh: 'CCL 2019 最佳论文奖 — <a href="https://arxiv.org/abs/1905.05583">How to Fine-Tune BERT for Text Classification?</a>'
+    text_en: 'CCL 2019 Best Paper Award — <a href="https://arxiv.org/abs/1905.05583">How to Fine-Tune BERT for Text Classification?</a>'
+  - year: 2018
+    text_zh: '中国中文信息学会 钱伟长中文信息处理科学技术奖 — 青年创新奖'
+    text_en: 'Qian Weichang Chinese Information Processing Award, Young Innovator Award'
+  - year: 2017
+    text_zh: 'ACL 2017 杰出论文奖 — <a href="http://aclweb.org/anthology/P/P17/P17-1110.pdf">Adversarial Multi-Criteria Learning for Chinese Word Segmentation</a>'
+    text_en: 'ACL 2017 Outstanding Paper Award — <a href="http://aclweb.org/anthology/P/P17/P17-1110.pdf">Adversarial Multi-Criteria Learning for Chinese Word Segmentation</a>'
+  - year: 2015
+    text_zh: '首届中国科协青年人才托举工程'
+    text_en: 'First Cohort, CAST Young Talents Program'
+
+teaching:
+  - year: 2025
+    text_zh: '主讲课程《模式识别与机器学习》入选第三批<span class="hl">国家级一流本科课程</span>（线上线下混合式课程）'
+    text_en: '"Pattern Recognition and Machine Learning" selected as National Top-Tier Undergraduate Course (3rd batch)'
+  - year: 2023
+    text_zh: '教育部、中国教师发展基金会"高校计算机专业优秀教师奖励计划"'
+    text_en: 'MoE & China Teacher Development Foundation: Excellent Computer Science Faculty Award'
+  - year: 2023
+    text_zh: '上海市计算机学会教学成果奖一等奖（第二完成人）'
+    text_en: 'Shanghai Computer Society Teaching Achievement Award, First Prize (Second Contributor)'
+  - year: 2021
+    text_zh: '首届上海市计算机学会教学成果奖一等奖（第一完成人）'
+    text_en: 'Shanghai Computer Society Teaching Achievement Award, First Prize (First Contributor)'
+  - year: 2020
+    text_zh: '第四届上海高校青年教师教学竞赛优等奖'
+    text_en: 'Shanghai Young Faculty Teaching Competition, Excellence Award'

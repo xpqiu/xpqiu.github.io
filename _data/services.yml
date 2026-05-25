@@ -1,0 +1,27 @@
+# Academic services / committees.
+groups:
+  - role_zh: '副主任'
+    role_en: 'Vice Chair'
+    org_zh: '中国人工智能学会 自然语言理解专委会'
+    org_en: 'NLU Committee, China Association for AI'
+    since: 2024
+  - role_zh: '副主任'
+    role_en: 'Vice Chair'
+    org_zh: '中国中文信息学会 大模型与生成专委会'
+    org_en: 'LLM & Generation Committee, CIPSC'
+    since: 2024
+  - role_zh: '主任 / 发起人'
+    role_en: 'Chair / Founder'
+    org_zh: '上海计算机学会 自然语言处理专委会'
+    org_en: 'NLP Committee, Shanghai Computer Society'
+    since: 2021
+  - role_zh: '执委委员'
+    role_en: 'Executive Committee'
+    org_zh: '中国中文信息学会 计算语言学专委会'
+    org_en: 'Computational Linguistics Committee, CIPSC'
+    since: 2022
+  - role_zh: '委员'
+    role_en: 'Member'
+    org_zh: '中国中文信息学会 语言与知识计算专委会'
+    org_en: 'Language & Knowledge Computing Committee, CIPSC'
+    since: 2017

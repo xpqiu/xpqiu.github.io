@@ -1,0 +1,17 @@
+# Jekyll build output (GitHub Pages rebuilds on its own)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Editor / IDE
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.tmp.*

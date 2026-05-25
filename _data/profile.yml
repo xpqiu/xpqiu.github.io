@@ -1,0 +1,36 @@
+# Profile information used by sidebar / hero across all pages.
+name_zh: '邱锡鹏'
+name_en: 'Xipeng Qiu'
+photo: '/xpqiu.jpg'
+
+affiliation_zh: '复旦大学 / 上海创智学院'
+affiliation_en: 'School of Computer Science, Fudan University'
+role_zh: '<a href="https://openmoss.github.io/">OpenMOSS</a> 团队负责人'
+role_en: 'Lead of <a href="https://openmoss.github.io/">OpenMOSS</a> Team'
+
+contact_zh: '上海市杨浦区淞沪路 2005 号 复旦大学江湾校区二号交叉学科楼'
+contact_en: 'Building 2X, No. 2005 Songhu Road, Shanghai, China'
+
+email: 'xpqiu@fudan.edu.cn'
+
+links:
+  - label_zh: 'Email'
+    label_en: 'Email'
+    href: 'mailto:xpqiu@fudan.edu.cn'
+    icon: 'icon-share-alternitive'
+  - label_zh: 'GitHub'
+    label_en: 'GitHub'
+    href: 'https://github.com/xpqiu'
+    icon: 'icon-github'
+  - label_zh: '知乎'
+    label_en: 'Zhihu'
+    href: 'https://www.zhihu.com/people/xpqiu'
+    icon: 'icon-zhihu-square'
+  - label_zh: 'Google Scholar'
+    label_en: 'Google Scholar'
+    href: 'https://scholar.google.com/citations?user=Pq4Yp_kAAAAJ'
+    icon: 'icon-feed2'
+
+team:
+  name: 'OpenMOSS'
+  url: 'https://openmoss.github.io/'

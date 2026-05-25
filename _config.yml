@@ -1,1 +1,33 @@
-theme: jekyll-theme-merlot
+# Site
+title: 邱锡鹏
+title_en: Xipeng Qiu
+description: 复旦大学计算机学院教授，OpenMOSS 团队负责人，研究方向为大语言模型和智能体。
+url: ""
+baseurl: ""
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Treat .html files in the project root as pages and let Liquid process them.
+include:
+  - index.html
+  - en.html
+  - students.html
+  - pubs.html
+  - pubs2024.html
+  - RA.html
+
+# Don't process the Typora-exported standalone pages or the source archive
+keep_files:
+  - pdf
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .git
+  - .github

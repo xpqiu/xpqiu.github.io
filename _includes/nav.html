@@ -1,0 +1,13 @@
+{%- assign lang = page.lang | default: "zh" -%}
+{%- if lang == "en" -%}
+  {%- assign links = site.data.nav.en -%}
+{%- else -%}
+  {%- assign links = site.data.nav.zh -%}
+{%- endif -%}
+<nav class="site-nav" aria-label="Primary">
+  {% for link in links -%}
+    {%- assign current = false -%}
+    {%- if page.url == link.href -%}{%- assign current = true -%}{%- endif -%}
+    <a href="{{ link.href | relative_url }}"{% if current %} class="is-current" aria-current="page"{% endif %}>{{ link.label }}</a>
+  {%- endfor %}
+</nav>

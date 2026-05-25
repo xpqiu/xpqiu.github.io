@@ -1,0 +1,9 @@
+{%- assign lang = page.lang | default: "zh" -%}
+{%- assign profile = site.data.profile -%}
+<footer class="site-footer">
+  <div>
+    <span>&copy; {{ 'now' | date: '%Y' }} {% if lang == "en" %}{{ profile.name_en }}{% else %}{{ profile.name_zh }}{% endif %}</span>
+    <span class="site-footer__sep">·</span>
+    <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+  </div>
+</footer>

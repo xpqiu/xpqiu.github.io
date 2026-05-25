@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{% if page.lang == 'en' %}en{% else %}zh-CN{% endif %}">
+<head>
+  {%- include head.html -%}
+</head>
+<body class="lang-{{ page.lang | default: 'zh' }}">
+  <div class="page">
+    {% include hero.html %}
+    <main class="page__main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+  <script src="{{ '/assets/js/star-counter.js' | relative_url }}" defer></script>
+</body>
+</html>

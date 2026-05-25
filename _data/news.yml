@@ -1,0 +1,11 @@
+# Recent news / updates shown on home page.
+# Most recent first. date is free-form (used for display only).
+#
+# Avoid duplicating items that already appear under 学术奖励 / Awards.
+# Good items: paper acceptances, project releases, talks, recruitment,
+# student fellowships, media coverage.
+#
+# Template:
+# - date: 2025.05
+#   text_zh: '...'
+#   text_en: '...'

@@ -1,0 +1,13 @@
+{%- assign lang = page.lang | default: "zh" -%}
+{%- assign profile = site.data.profile -%}
+<header class="site-header">
+  <div class="site-header__brand">
+    <a class="site-header__name" href="{% if lang == 'en' %}{{ '/en.html' | relative_url }}{% else %}{{ '/index.html' | relative_url }}{% endif %}">
+      {% if lang == "en" %}{{ profile.name_en }}{% else %}{{ profile.name_zh }}{% endif %}
+    </a>
+    <span class="site-header__role">
+      {% if lang == "en" %}{{ profile.affiliation_en }} · {{ profile.role_en }}{% else %}{{ profile.affiliation_zh }} {{ profile.role_zh }}{% endif %}
+    </span>
+  </div>
+  {% include nav.html %}
+</header>

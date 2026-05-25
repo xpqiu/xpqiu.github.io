@@ -1,0 +1,40 @@
+{%- assign lang = page.lang | default: "zh" -%}
+{%- assign profile = site.data.profile -%}
+<aside class="sidebar">
+  <img class="sidebar__photo" src="{{ profile.photo | relative_url }}" alt="{% if lang == 'en' %}{{ profile.name_en }}{% else %}{{ profile.name_zh }}{% endif %}">
+
+  <div class="sidebar__section">
+    <h2>{% if lang == "en" %}Team{% else %}团队主页{% endif %}</h2>
+    <p><a href="{{ profile.team.url }}" target="_blank" rel="noopener">{{ profile.team.name }}</a></p>
+  </div>
+
+  <div class="sidebar__section">
+    <h2>{% if lang == "en" %}Links{% else %}链接{% endif %}</h2>
+    <ul class="sidebar__links">
+      {%- for link in profile.links %}
+      <li>
+        <a href="{{ link.href }}"{% unless link.href contains 'mailto' %} target="_blank" rel="noopener"{% endunless %}>
+          <i class="{{ link.icon }}" aria-hidden="true"></i>
+          <span>{% if lang == "en" %}{{ link.label_en }}{% else %}{{ link.label_zh }}{% endif %}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+
+  <div class="sidebar__section sidebar__book">
+    <h2>{% if lang == "en" %}Book{% else %}著作{% endif %}</h2>
+    <a class="sidebar__book-cover" href="https://nndl.github.io/" target="_blank" rel="noopener">
+      <img src="{{ '/nndl2.jpg' | relative_url }}" alt="{% if lang == 'en' %}Neural Networks and Deep Learning{% else %}神经网络与深度学习{% endif %}">
+    </a>
+    <p class="sidebar__book-title">
+      <a href="https://nndl.github.io/" target="_blank" rel="noopener">{% if lang == "en" %}Neural Networks and Deep Learning{% else %}《神经网络与深度学习》{% endif %}</a>
+    </p>
+    <p class="sidebar__book-link"><a href="https://nndl.github.io/" target="_blank" rel="noopener">nndl.github.io →</a></p>
+  </div>
+
+  <div class="sidebar__section">
+    <h2>{% if lang == "en" %}Contact{% else %}联系方式{% endif %}</h2>
+    <p class="sidebar__contact">{% if lang == "en" %}{{ profile.contact_en }}{% else %}{{ profile.contact_zh }}{% endif %}</p>
+  </div>
+</aside>

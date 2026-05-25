@@ -1,0 +1,34 @@
+# Open-source projects led by the group.
+# Three configuration shapes:
+#   - `repo: owner/name`         → single repo, show one star number
+#   - `org: orgname`             → series project, JS fetches all repos in the org,
+#                                  shows top N by star count
+#   - `repo` + `org` is fine     → header card star (repo) + sub-repos list (org)
+- name: 'MOSS'
+  url: 'https://github.com/OpenMOSS'
+  org: 'OpenMOSS'
+  feature: true   # render as a tall left-column card that fills the row
+  # featured: explicit allow list (case-insensitive); also defines display order.
+  featured: ['MOSS', 'MOSS-VL', 'MOSS-Audio', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
+  desc_zh: '开源对话式大语言模型系列，覆盖预训练、对齐、多模态扩展与可解释性研究。'
+  desc_en: 'Open-source conversational LLM series — pre-training, alignment, multimodal extensions and interpretability.'
+  badge: 'LLM Series'
+- name: 'NEX'
+  url: 'https://github.com/nex-agi'
+  org: 'nex-agi'
+  featured: ['Nex-N1']
+  desc_zh: '面向下一代智能体的开源系列项目。'
+  desc_en: 'Open-source series for next-generation AI agents.'
+  badge: 'Agents Series'
+- name: 'FastNLP'
+  url: 'https://github.com/fastnlp/fastNLP'
+  repo: 'fastnlp/fastNLP'
+  desc_zh: '广泛使用的轻量级自然语言处理工具包，被学术界与产业界采用。'
+  desc_en: 'Lightweight NLP toolkit widely adopted in academia and industry.'
+  badge: 'Toolkit'
+- name: 'FudanNLP'
+  url: 'https://github.com/FudanNLP/fnlp/'
+  repo: 'FudanNLP/fnlp'
+  desc_zh: '早期开源中文自然语言处理工具包，奠定了团队的开源工作基础。'
+  desc_en: 'Earlier open-source Chinese NLP toolkit, foundation of the group''s open-source effort.'
+  badge: 'Toolkit'

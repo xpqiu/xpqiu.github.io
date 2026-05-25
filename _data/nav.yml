@@ -1,0 +1,19 @@
+# Top navigation. lang determines which page each link targets.
+zh:
+  - label: '首页'
+    href: '/index.html'
+  - label: '学生'
+    href: '/students.html'
+  - label: '研究方向与代表性论文'
+    href: '/pubs.html'
+  - label: 'English'
+    href: '/en.html'
+en:
+  - label: 'Home'
+    href: '/en.html'
+  - label: 'Students'
+    href: '/students.html'
+  - label: 'Selected Publications'
+    href: '/pubs.html'
+  - label: '中文'
+    href: '/index.html'

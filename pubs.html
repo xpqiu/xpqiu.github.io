@@ -1,138 +1,51 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="utf-8">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="Author" content="Xipeng Qiu, "  />
-		<meta name="description" content="Xipeng Qiu, Publication, " >
-		<meta name="keywords" content="Xipeng Qiu, Machine Learning, Natural Language Processing, Large Language Model, Deep Learning" >
-		<title>Xipeng Qiu's Selected Publications  </title>
-		<link rel="stylesheet" href="my.css" type="text/css" />
-		<style type="text/css">
-			div.noshow { display: none;}
-		</style>
-		<script type="text/javascript">
-			<!--
+---
+layout: page
+lang: en
+title: Selected Publications
+permalink: /pubs.html
+---
 
+<p>A more comprehensive publication list: <a href="https://scholar.google.com/citations?user=Pq4Yp_kAAAAJ&amp;hl=en">Google Scholar</a></p>
 
+<h4>Selected Papers (1 ~ 2 papers per year)</h4>
 
-			function toggleInfo(articleid,info) {
+<ol class="pub-list">
 
-				var entry = document.getElementById(articleid);
-				var abs = document.getElementById('abs_'+articleid);
-				var rev = document.getElementById('rev_'+articleid);
-				var bib = document.getElementById('bib_'+articleid);
-
-				if (abs && info == 'abstract') {
-					if(abs.className.indexOf('abstract') != -1) {
-						abs.className.indexOf('noshow') == -1?abs.className = 'abstract noshow':abs.className = 'abstract';
-					}
-				} else if (rev && info == 'review') {
-					if(rev.className.indexOf('review') != -1) {
-						rev.className.indexOf('noshow') == -1?rev.className = 'review noshow':rev.className = 'review';
-					}
-				} else if (bib && info == 'bibtex') {
-					if(bib.className.indexOf('bibtex') != -1) {
-						bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
-					}
-				} else {
-					return;
-				}
-
-				// check if one or the other is available
-				var revshow = false;
-				var absshow = false;
-				var bibshow = false;
-				(abs && abs.className.indexOf('noshow') == -1)? absshow = true: absshow = false;
-				(rev && rev.className.indexOf('noshow') == -1)? revshow = true: revshow = false;
-				(bib && bib.className == 'bibtex')? bibshow = true: bibshow = false;
-
-				// highlight original entry
-				if(entry) {
-					if (revshow || absshow || bibshow) {
-						entry.className = 'entry highlight show';
-					} else {
-						entry.className = 'entry show';
-					}
-				}
-
-				// When there's a combination of abstract/review/bibtex showing, need to add class for correct styling
-				if(absshow) {
-					(revshow||bibshow)?abs.className = 'abstract nextshow':abs.className = 'abstract';
-				}
-				if (revshow) {
-					bibshow?rev.className = 'review nextshow': rev.className = 'review';
-				}
-
-			}
-
-			function showAll(){
-				// first close all abstracts, reviews, etc.
-				closeAllInfo();
-
-				for (var i = 0; i < numEntries; i++){
-					entryRows[i].className = 'entry show';
-				}
-			}
-
-			function closeAllInfo(){
-				for (var i=0; i < numInfo; i++){
-					if (infoRows[i].className.indexOf('noshow') ==-1) {
-						infoRows[i].className = infoRows[i].className + ' noshow';
-					}
-				}
-			}
-
-
-			-->
-		</script>
-
-	</head>
-	<body>
-		<div id="pagecell1">
-			<!--pagecell1-->
-			<div id="top">
-
-				<h1><a href="en.html">Xipeng Qiu</a></h1>
-				Professor, <a href="https://openmoss.github.io/">OpenMOSS</a>@Fudan University &amp; SII
-                <div id="top-right"> <a href="index.html"> Home </a> | <a href="students.html">Students</a> | <a href="pubs.html">Research Topics</a> | <a href="en.html"> Enlish </a> </div>
-            </div>
-
-					<div id="left">
-				<img src="xpqiu.jpg" alt="" /><!--width="285" height="325" /-->
-				<p>&nbsp;</p>
-				<div>
-					<h2>Link</h2>
-						<p ><a href="mailto:xpqiu@fudan.edu.cn" target="_blank"><i class="icon-share-alternitive"></i> Email</a></p>
-						<p ><a href="http://github.com/xpqiu" target="_blank"><i class="icon-github"></i> Github</a></p>
-						<p ><a href="http://weibo.com/xpqiu/" target="_blank"><i class="icon-weibo"></i> Weibo</a></p>
-						<p ><a href="https://www.zhihu.com/people/xpqiu" target="_blank"><i class="icon-zhihu-square"></i> Zhihu</a></p>
-						<h2>Contact</h2>
-						<p class="list1" >Building 2X, No. 2005 Songhu Road,Shanghai, China</p>
-
-					</div>
-			</div>
-
-							<div id="content">
-<p> A more comprehensive publication list: <a href="https://scholar.google.com/citations?user=Pq4Yp_kAAAAJ&hl=en">Google Scholar</a></p>							
-
-
-<h4>Selected Papers （One paper per year）</h4>
-
-<ol>
+<li id="ye2025datamix" class="entry">
+  <span class="entry__year">2025</span>
+  <div class="entry__body">
+    <strong class="paper-title">Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance</strong>,
+    <span class="hl">ICLR</span>, 2025.
+    <a href="javascript:toggleInfo('ye2025datamix','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/2403.16952">[arXiv]</a>
+    <div class="author">Jiasheng Ye, Peiju Liu, Tianxiang Sun, Jun Zhan, Yunhua Zhou, <strong>Xipeng Qiu</strong>.</div>
+    <div id="bib_ye2025datamix" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{ye2025datamix,
+  author    = {Ye, Jiasheng and Liu, Peiju and Sun, Tianxiang and Zhan, Jun and Zhou, Yunhua and Qiu, Xipeng},
+  title     = {Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2025},
+  pages     = {82263--82287},
+  url       = {https://arxiv.org/abs/2403.16952}
+}
+</pre>
+    </div>
+  </div>
+</li>
 
 <li id="Sun2024MOSS" class="entry">
-	<strong><font color="#0071BF">MOSS: An Open Conversational Large Language Model</font></strong>, 
-	 Machine Intelligence Research , 2024. 
+  <span class="entry__year">2024</span>
+  <div class="entry__body">
+    <strong class="paper-title">MOSS: An Open Conversational Large Language Model</strong>,
+    Machine Intelligence Research, 2024.
     <a href="javascript:toggleInfo('Sun2024MOSS','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11633-024-1502-8">[DOI]</a><a href="./pdf/MOSS.pdf">[PDF]</a>
-<div id="abs_Sun2024MOSS" class="abstract noshow">
-	<b>Abstract</b>: Conversational large language models (LLMs) such as ChatGPT and GPT-4 have recently exhibited remarkable capabilities across various domains, capturing widespread attention from the public. To facilitate this line of research, in this paper, we report the development of MOSS, an open-sourced conversational LLM that contains 16 B parameters and can perform a variety of instructions in multi-turn interactions with humans. The base model of MOSS is pre-trained on large-scale unlabeled English, Chinese, and code data. To optimize the model for dialogue, we generate 1.1 M synthetic conversations based on user prompts collected through our earlier versions of the model API. We then perform preference-aware training on preference data annotated from AI feedback. Evaluation results on real-world use cases and academic benchmarks demonstrate the effectiveness of the proposed approaches. In addition, we present an effective practice to augment MOSS with several external tools. Through the development of MOSS, we have established a complete technical roadmap for large language models from pre-training, supervised fine-tuning to alignment, verifying the feasibility of chatGPT under resource-limited conditions and providing a reference for both the academic and industrial communities. Model weights and code are publicly available at https://github.com/OpenMOSS/MOSS.</td>
-</div>
     <a href="javascript:toggleInfo('Sun2024MOSS','abstract')">[Abstract]</a>
-    
     <div class="author">Tianxiang Sun, Xiaotian Zhang, Zhengfu He, Peng Li, Qinyuan Cheng, Xiangyang Liu, Hang Yan, Yunfan Shao, Qiong Tang, Shiduo Zhang, Xingjian Zhao, Ke Chen, Yining Zheng, Zhejian Zhou, Ruixiao Li, Jun Zhan, Yunhua Zhou, Linyang Li, Xiaogui Yang, Lingling Wu, Zhangyue Yin, Xuanjing Huang, Yu-Gang Jiang, <strong>Xipeng Qiu</strong>.</div>
-	
-</li>
-<div id="bib_Sun2024MOSS" class="bibtex noshow">
+    <div id="abs_Sun2024MOSS" class="abstract noshow">
+      <b>Abstract</b>: Conversational large language models (LLMs) such as ChatGPT and GPT-4 have recently exhibited remarkable capabilities across various domains, capturing widespread attention from the public. To facilitate this line of research, in this paper, we report the development of MOSS, an open-sourced conversational LLM that contains 16 B parameters and can perform a variety of instructions in multi-turn interactions with humans. The base model of MOSS is pre-trained on large-scale unlabeled English, Chinese, and code data. To optimize the model for dialogue, we generate 1.1 M synthetic conversations based on user prompts collected through our earlier versions of the model API. We then perform preference-aware training on preference data annotated from AI feedback. Evaluation results on real-world use cases and academic benchmarks demonstrate the effectiveness of the proposed approaches. In addition, we present an effective practice to augment MOSS with several external tools. Through the development of MOSS, we have established a complete technical roadmap for large language models from pre-training, supervised fine-tuning to alignment, verifying the feasibility of chatGPT under resource-limited conditions and providing a reference for both the academic and industrial communities. Model weights and code are publicly available at https://github.com/OpenMOSS/MOSS.
+    </div>
+    <div id="bib_Sun2024MOSS" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @article{Sun2024MOSS,
@@ -143,21 +56,48 @@
   doi = {https://doi.org/10.1007/s11633-024-1502-8}
 }
 </pre>
-</div>
-			
-<li id="Sun2022" class="entry">
-	<strong><font color="#0071BF">Paradigm Shift in Natural Language Processing</font></strong>, 
-	 Machine Intelligence Research , Vol. 19(3), pp. 169-183, 2022. 
-    <a href="javascript:toggleInfo('Sun2022','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11633-022-1331-6">[DOI]</a>
-<div id="abs_Sun2022" class="abstract noshow">
-	<b>Abstract</b>: In the era of deep learning, modeling for most natural language processing (NLP) tasks has converged into several mainstream paradigms. For example, we usually adopt the sequence labeling paradigm to solve a bundle of tasks such as POS-tagging, named entity recognition (NER), and chunking, and adopt the classification paradigm to solve tasks like sentiment analysis. With the rapid progress of pre-trained language models, recent years have witnessed a rising trend of paradigm shift, which is solving one NLP task in a new paradigm by reformulating the task. The paradigm shift has achieved great success on many tasks and is becoming a promising way to improve model performance. Moreover, some of these paradigms have shown great potential to unify a large number of NLP tasks, making it possible to build a single model to handle diverse tasks. In this paper, we review such phenomenon of paradigm shifts in recent years, highlighting several paradigms that have the potential to solve different NLP tasks.</td>
-</div>
-    <a href="javascript:toggleInfo('Sun2022','abstract')">[Abstract]</a>
-    
-    <div class="author">Tian-Xiang Sun, Xiang-Yang Liu, <strong>Xi-Peng Qiu</strong>, Xuan-Jing Huang.</div>
-	
+    </div>
+  </div>
 </li>
-<div id="bib_Sun2022" class="bibtex noshow">
+
+<li id="zhang2023speechgpt" class="entry">
+  <span class="entry__year">2023</span>
+  <div class="entry__body">
+    <strong class="paper-title">SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities</strong>,
+    <span class="hl">Findings of EMNLP</span>, 2023.
+    <a href="javascript:toggleInfo('zhang2023speechgpt','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/2305.11000">[arXiv]</a><a href="https://0nutation.github.io/SpeechGPT.github.io/">[Project]</a>
+    <a href="javascript:toggleInfo('zhang2023speechgpt','abstract')">[Abstract]</a>
+    <div class="author">Dong Zhang, Shimin Li, Xin Zhang, Jun Zhan, Pengyu Wang, Yaqian Zhou, <strong>Xipeng Qiu</strong>.</div>
+    <div id="abs_zhang2023speechgpt" class="abstract noshow">
+      <b>Abstract</b>: Multi-modal large language models are regarded as a crucial step towards Artificial General Intelligence (AGI) and have garnered significant interest with the emergence of ChatGPT. However, current speech-language models typically adopt the cascade paradigm, preventing inter-modal knowledge transfer. In this paper, we propose SpeechGPT, a large language model with intrinsic cross-modal conversational abilities, capable of perceiving and generating multi-modal content. With discrete speech representations, we construct SpeechInstruct, a large-scale cross-modal speech instruction dataset. Additionally, we employ a three-stage training strategy that includes modality-adaptation pre-training, cross-modal instruction fine-tuning, and chain-of-modality instruction fine-tuning. The experimental results demonstrate that SpeechGPT has an impressive capacity to follow cross-modal human instructions and highlight the potential of handling multiple modalities with one model.
+    </div>
+    <div id="bib_zhang2023speechgpt" class="bibtex noshow">
+<b>BibTeX</b>:
+<pre>
+@inproceedings{zhang2023speechgpt,
+  author = {Zhang, Dong and Li, Shimin and Zhang, Xin and Zhan, Jun and Wang, Pengyu and Zhou, Yaqian and Qiu, Xipeng},
+  title = {SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  year = {2023},
+  url = {https://arxiv.org/abs/2305.11000}
+}
+</pre>
+    </div>
+  </div>
+</li>
+
+<li id="Sun2022" class="entry">
+  <span class="entry__year">2022</span>
+  <div class="entry__body">
+    <strong class="paper-title">Paradigm Shift in Natural Language Processing</strong>,
+    Machine Intelligence Research, Vol. 19(3), pp. 169-183, 2022.
+    <a href="javascript:toggleInfo('Sun2022','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11633-022-1331-6">[DOI]</a>
+    <a href="javascript:toggleInfo('Sun2022','abstract')">[Abstract]</a>
+    <div class="author">Tian-Xiang Sun, Xiang-Yang Liu, <strong>Xi-Peng Qiu</strong>, Xuan-Jing Huang.</div>
+    <div id="abs_Sun2022" class="abstract noshow">
+      <b>Abstract</b>: In the era of deep learning, modeling for most natural language processing (NLP) tasks has converged into several mainstream paradigms. For example, we usually adopt the sequence labeling paradigm to solve a bundle of tasks such as POS-tagging, named entity recognition (NER), and chunking, and adopt the classification paradigm to solve tasks like sentiment analysis. With the rapid progress of pre-trained language models, recent years have witnessed a rising trend of paradigm shift, which is solving one NLP task in a new paradigm by reformulating the task. The paradigm shift has achieved great success on many tasks and is becoming a promising way to improve model performance. Moreover, some of these paradigms have shown great potential to unify a large number of NLP tasks, making it possible to build a single model to handle diverse tasks. In this paper, we review such phenomenon of paradigm shifts in recent years, highlighting several paradigms that have the potential to solve different NLP tasks.
+    </div>
+    <div id="bib_Sun2022" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @article{Sun2022,
@@ -172,42 +112,18 @@
   doi = {https://doi.org/10.1007/s11633-022-1331-6}
 }
 </pre>
-</div>
-
-
-
-
-<li id="11" class="entry">
-	<strong><font color="#0071BF">CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation</font></strong>, 
-	 SCIENCE CHINA Information Sciences <strong><font color="#ff6666">(SCIS)</font></strong> , 2022. 
-    <a href="javascript:toggleInfo('11','bibtex')">[BibTeX]</a><a href="https://doi.org/10.1007/s11432-021-3536-5">[DOI]</a><a href="https://arxiv.org/pdf/2109.05729.pdf">[PDF]</a>
-    
-    
-    <div class="author">Yunfan Shao, Zhichao Geng, Yitao Liu, Junqi Dai, Hang Yan, Fei Yang, Li Zhe, Hujun Bao, <strong>Xipeng Qiu</strong>.</div>
-	
+    </div>
+  </div>
 </li>
-<div id="bib_11" class="bibtex noshow">
-<b>BibTeX</b>:
-<pre>
-@article{11,
-  author = {Shao, Yunfan and Geng, Zhichao and Liu, Yitao and Dai, Junqi and Yan, Hang and Yang, Fei and Zhe, Li and Bao, Hujun and Qiu, Xipeng},
-  title = {CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation},
-  journal = {SCIENCE CHINA Information Sciences},
-  year = {2022},
-  url = {https://arxiv.org/abs/2109.05729},
-  doi = {https://doi.org/10.1007/s11432-021-3536-5}
-}
-</pre>
-</div>
-
 
 <li id="sun2022black" class="entry">
-	<strong><font color="#0071BF">Black-Box Tuning for Language-Model-as-a-Service</font></strong>, 
-	<strong><font color="#ff6666"> ICML</font></strong>, 2022. 
-    <a href="javascript:toggleInfo('sun2022black','bibtex')">[BibTeX]</a> 
-<div class="author">Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, <strong>Xipeng Qiu</strong>.</div>
-</li>
-<div id="bib_sun2022black" class="bibtex noshow">
+  <span class="entry__year">2022</span>
+  <div class="entry__body">
+    <strong class="paper-title">Black-Box Tuning for Language-Model-as-a-Service</strong>,
+    <span class="hl">ICML</span>, 2022.
+    <a href="javascript:toggleInfo('sun2022black','bibtex')">[BibTeX]</a>
+    <div class="author">Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, <strong>Xipeng Qiu</strong>.</div>
+    <div id="bib_sun2022black" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{sun2022black,
@@ -216,22 +132,25 @@
   booktitle = {International Conference on Machine Learning},
   year = {2022},
   volume = {162},
-  pages = {20841--20855}, 
+  pages = {20841--20855},
   url = {https://proceedings.mlr.press/v162/sun22e.html}
 }
 </pre>
-</div>
-
-
-
+    </div>
+  </div>
+</li>
 
 <li id="yan-etal-2021-unified-generative" class="entry">
-	<strong><font color="#0071BF">A Unified Generative Framework for Various NER Subtasks</font></strong>, 
-	<strong><font color="#ff6666"> ACL</font></strong>, 2021. 
-    <a href="javascript:toggleInfo('yan-etal-2021-unified-generative','bibtex')">[BibTeX]</a><a href="https://aclanthology.org/2021.acl-long.451.pdf">[PDF]</a><a href="javascript:toggleInfo('yan-etal-2021-unified-generative','abstract')">[Abstract]</a> 
-<div class="author">Hang Yan, Tao Gui, Junqi Dai, Qipeng Guo, Zheng Zhang, <strong>Xipeng Qiu</strong>.</div>
-</li>
-<div id="bib_yan-etal-2021-unified-generative" class="bibtex noshow">
+  <span class="entry__year">2021</span>
+  <div class="entry__body">
+    <strong class="paper-title">A Unified Generative Framework for Various NER Subtasks</strong>,
+    <span class="hl">ACL</span>, 2021.
+    <a href="javascript:toggleInfo('yan-etal-2021-unified-generative','bibtex')">[BibTeX]</a><a href="https://aclanthology.org/2021.acl-long.451.pdf">[PDF]</a><a href="javascript:toggleInfo('yan-etal-2021-unified-generative','abstract')">[Abstract]</a>
+    <div class="author">Hang Yan, Tao Gui, Junqi Dai, Qipeng Guo, Zheng Zhang, <strong>Xipeng Qiu</strong>.</div>
+    <div id="abs_yan-etal-2021-unified-generative" class="abstract noshow">
+      <b>Abstract</b>: Named Entity Recognition (NER) is the task of identifying spans that represent entities in sentences. Whether the entity spans are nested or discontinuous, the NER task can be categorized into the flat NER, nested NER, and discontinuous NER subtasks. These subtasks have been mainly solved by the token-level sequence labelling or span-level classification. However, these solutions can hardly tackle the three kinds of NER subtasks concurrently. To that end, we propose to formulate the NER subtasks as an entity span sequence generation task, which can be solved by a unified sequence-to-sequence (Seq2Seq) framework. Based on our unified framework, we can leverage the pre-trained Seq2Seq model to solve all three kinds of NER subtasks without the special design of the tagging schema or ways to enumerate spans. We exploit three types of entity representations to linearize entities into a sequence. Our proposed framework is easy-to-implement and achieves state-of-the-art (SoTA) or near SoTA performance on eight English NER datasets, including two flat NER datasets, three nested NER datasets, and three discontinuous NER datasets.
+    </div>
+    <div id="bib_yan-etal-2021-unified-generative" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{yan-etal-2021-unified-generative,
@@ -239,23 +158,25 @@
   title = {A Unified Generative Framework for Various NER Subtasks},
   booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
   year = {2021},
-  pages = {5808--5822}, 
+  pages = {5808--5822},
   url = {https://aclanthology.org/2021.acl-long.451}
 }
 </pre>
-</div>
-
-<div id="abs_yan-etal-2021-unified-generative" class="abstract noshow">
-	<b>Abstract</b>: Named Entity Recognition (NER) is the task of identifying spans that represent entities in sentences. Whether the entity spans are nested or discontinuous, the NER task can be categorized into the flat NER, nested NER, and discontinuous NER subtasks. These subtasks have been mainly solved by the token-level sequence labelling or span-level classification. However, these solutions can hardly tackle the three kinds of NER subtasks concurrently. To that end, we propose to formulate the NER subtasks as an entity span sequence generation task, which can be solved by a unified sequence-to-sequence (Seq2Seq) framework. Based on our unified framework, we can leverage the pre-trained Seq2Seq model to solve all three kinds of NER subtasks without the special design of the tagging schema or ways to enumerate spans. We exploit three types of entity representations to linearize entities into a sequence. Our proposed framework is easy-to-implement and achieves state-of-the-art (SoTA) or near SoTA performance on eight English NER datasets, including two flat NER datasets, three nested NER datasets, and three discontinuous NER datasets.
-</div>
+    </div>
+  </div>
+</li>
 
 <li id="li-etal-2020-flat" class="entry">
-	<strong><font color="#0071BF">FLAT: Chinese NER Using Flat-Lattice Transformer</font></strong>, 
-	<strong><font color="#ff6666"> ACL</font></strong>, 2020. 
-    <a href="javascript:toggleInfo('li-etal-2020-flat','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/2004.11795.pdf">[PDF]</a><a href="https://github.com/LeeSureman/Flat-Lattice-Transformer">[Code]</a><a href="javascript:toggleInfo('li-etal-2020-flat','abstract')">[Abstract]</a> 
-<div class="author">Xiaonan Li, Hang Yan, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
-</li>
-<div id="bib_li-etal-2020-flat" class="bibtex noshow">
+  <span class="entry__year">2020</span>
+  <div class="entry__body">
+    <strong class="paper-title">FLAT: Chinese NER Using Flat-Lattice Transformer</strong>,
+    <span class="hl">ACL</span>, 2020.
+    <a href="javascript:toggleInfo('li-etal-2020-flat','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/2004.11795.pdf">[PDF]</a><a href="https://github.com/LeeSureman/Flat-Lattice-Transformer">[Code]</a><a href="javascript:toggleInfo('li-etal-2020-flat','abstract')">[Abstract]</a>
+    <div class="author">Xiaonan Li, Hang Yan, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
+    <div id="abs_li-etal-2020-flat" class="abstract noshow">
+      <b>Abstract</b>: Recently, the character-word lattice structure has been proved to be effective for Chinese named entity recognition (NER) by incorporating the word information. However, since the lattice structure is complex and dynamic, the lattice-based models are hard to fully utilize the parallel computation of GPUs and usually have a low inference speed. In this paper, we propose FLAT: Flat-LAttice Transformer for Chinese NER, which converts the lattice structure into a flat structure consisting of spans. Each span corresponds to a character or latent word and its position in the original lattice. With the power of Transformer and well-designed position encoding, FLAT can fully leverage the lattice information and has an excellent parallel ability. Experiments on four datasets show FLAT outperforms other lexicon-based models in performance and efficiency.
+    </div>
+    <div id="bib_li-etal-2020-flat" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{li-etal-2020-flat,
@@ -263,23 +184,25 @@
   title = {FLAT: Chinese NER Using Flat-Lattice Transformer},
   booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
   year = {2020},
-  pages = {6836--6842}, 
+  pages = {6836--6842},
   url = {https://www.aclweb.org/anthology/2020.acl-main.611}
 }
 </pre>
-</div>
-
-<div id="abs_li-etal-2020-flat" class="abstract noshow">
-	<b>Abstract</b>: Recently, the character-word lattice structure has been proved to be effective for Chinese named entity recognition (NER) by incorporating the word information. However, since the lattice structure is complex and dynamic, the lattice-based models are hard to fully utilize the parallel computation of GPUs and usually have a low inference speed. In this paper, we propose FLAT: Flat-LAttice Transformer for Chinese NER, which converts the lattice structure into a flat structure consisting of spans. Each span corresponds to a character or latent word and its position in the original lattice. With the power of Transformer and well-designed position encoding, FLAT can fully leverage the lattice information and has an excellent parallel ability. Experiments on four datasets show FLAT outperforms other lexicon-based models in performance and efficiency.
-</div>
+    </div>
+  </div>
+</li>
 
 <li id="guo2019star" class="entry">
-	<strong><font color="#0071BF">Star-Transformer</font></strong>, 
-	<strong><font color="#ff6666"> NAACL</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('guo2019star','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1902.09113.pdf">[PDF]</a><a href="javascript:toggleInfo('guo2019star','abstract')">[Abstract]</a> 
-<div class="author">Qipeng Guo, <strong>Xipeng Qiu</strong>, Pengfei Liu, Yunfan Shao, Xiangyang Xue, Zheng Zhang.</div>
-</li>
-<div id="bib_guo2019star" class="bibtex noshow">
+  <span class="entry__year">2019</span>
+  <div class="entry__body">
+    <strong class="paper-title">Star-Transformer</strong>,
+    <span class="hl">NAACL</span>, 2019.
+    <a href="javascript:toggleInfo('guo2019star','bibtex')">[BibTeX]</a><a href="https://arxiv.org/pdf/1902.09113.pdf">[PDF]</a><a href="javascript:toggleInfo('guo2019star','abstract')">[Abstract]</a>
+    <div class="author">Qipeng Guo, <strong>Xipeng Qiu</strong>, Pengfei Liu, Yunfan Shao, Xiangyang Xue, Zheng Zhang.</div>
+    <div id="abs_guo2019star" class="abstract noshow">
+      <b>Abstract</b>: Although Transformer has achieved great successes on many NLP tasks, its heavy structure with fully-connected attention connections leads to dependencies on large training data. In this paper, we present Star-Transformer, a lightweight alternative by careful sparsification. To reduce model complexity, we replace the fully-connected structure with a star-shaped topology, in which every two non-adjacent nodes are connected through a shared relay node. Thus, complexity is reduced from quadratic to linear, while preserving the capacity to capture both local composition and long-range dependency. The experiments on four tasks (22 datasets) show that Star-Transformer achieved significant improvements against the standard Transformer for the modestly sized datasets.
+    </div>
+    <div id="bib_guo2019star" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{guo2019star,
@@ -287,24 +210,25 @@
   title = {Star-Transformer},
   booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
   year = {2019},
-  pages = {1315--1325}, 
+  pages = {1315--1325},
   url = {https://www.aclweb.org/anthology/N19-1133}
 }
 </pre>
-</div>
-
-<div id="abs_guo2019star" class="abstract noshow">
-	<b>Abstract</b>: Although Transformer has achieved great successes on many NLP tasks, its heavy structure with fully-connected attention connections leads to dependencies on large training data. In this paper, we present Star-Transformer, a lightweight alternative by careful sparsification. To reduce model complexity, we replace the fully-connected structure with a star-shaped topology, in which every two non-adjacent nodes are connected through a shared relay node. Thus, complexity is reduced from quadratic to linear, while preserving the capacity to capture both local composition and long-range dependency. The experiments on four tasks (22 datasets) show that Star-Transformer achieved significant improvements against the standard Transformer for the modestly sized datasets.
-</div>
-
+    </div>
+  </div>
+</li>
 
 <li id="sun2019utilizing" class="entry">
-	<strong><font color="#0071BF">Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence</font></strong>, 
-	<strong><font color="#ff6666"> NAACL</font></strong>, 2019. 
-    <a href="javascript:toggleInfo('sun2019utilizing','bibtex')">[BibTeX]</a><a href="https://github.com/HSLCY/ABSA-BERT-pair">[Code]</a><a href="javascript:toggleInfo('sun2019utilizing','abstract')">[Abstract]</a> 
-<div class="author">Chi Sun, Luyao Huang, <strong>Xipeng Qiu</strong>.</div>
-</li>
-<div id="bib_sun2019utilizing" class="bibtex noshow">
+  <span class="entry__year">2019</span>
+  <div class="entry__body">
+    <strong class="paper-title">Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence</strong>,
+    <span class="hl">NAACL</span>, 2019.
+    <a href="javascript:toggleInfo('sun2019utilizing','bibtex')">[BibTeX]</a><a href="https://github.com/HSLCY/ABSA-BERT-pair">[Code]</a><a href="javascript:toggleInfo('sun2019utilizing','abstract')">[Abstract]</a>
+    <div class="author">Chi Sun, Luyao Huang, <strong>Xipeng Qiu</strong>.</div>
+    <div id="abs_sun2019utilizing" class="abstract noshow">
+      <b>Abstract</b>: Aspect-based sentiment analysis (ABSA), which aims to identify fine-grained opinion polarity towards a specific aspect, is a challenging subtask of sentiment analysis (SA). In this paper, we construct an auxiliary sentence from the aspect and convert ABSA to a sentence-pair classification task, such as question answering (QA) and natural language inference (NLI). We fine-tune the pre-trained model from BERT and achieve new state-of-the-art results on SentiHood and SemEval-2014 Task 4 datasets. The source codes are available at https://github.com/HSLCY/ABSA-BERT-pair.
+    </div>
+    <div id="bib_sun2019utilizing" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{sun2019utilizing,
@@ -312,24 +236,22 @@
   title = {Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence},
   booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
   year = {2019},
-  pages = {380--385}, 
+  pages = {380--385},
   url = {https://arxiv.org/pdf/1903.09588.pdf}
 }
 </pre>
-</div>
-
-<div id="abs_sun2019utilizing" class="abstract noshow">
-	<b>Abstract</b>: Aspect-based sentiment analysis (ABSA), which aims to identify fine-grained opinion polarity towards a specific aspect, is a challenging subtask of sentiment analysis (SA). In this paper, we construct an auxiliary sentence from the aspect and convert ABSA to a sentence-pair classification task, such as question answering (QA) and natural language inference (NLI). We fine-tune the pre-trained model from BERT and achieve new state-of-the-art results on SentiHood and SemEval-2014 Task 4 datasets. The source codes are available at https://github.com/HSLCY/ABSA-BERT-pair.
-</div>
-
-	
-<li id="liu2016recurrent" class="entry">
-	<strong><font color="#0071BF">Recurrent Neural Network for Text Classification with Multi-Task Learning</font></strong>, 
-	<strong><font color="#ff6666"> IJCAI</font></strong>, 2016. 
-    <a href="javascript:toggleInfo('liu2016recurrent','bibtex')">[BibTeX]</a> 
-<div class="author">Pengfei Liu, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
+    </div>
+  </div>
 </li>
-<div id="bib_liu2016recurrent" class="bibtex noshow">
+
+<li id="liu2016recurrent" class="entry">
+  <span class="entry__year">2016</span>
+  <div class="entry__body">
+    <strong class="paper-title">Recurrent Neural Network for Text Classification with Multi-Task Learning</strong>,
+    <span class="hl">IJCAI</span>, 2016.
+    <a href="javascript:toggleInfo('liu2016recurrent','bibtex')">[BibTeX]</a>
+    <div class="author">Pengfei Liu, <strong>Xipeng Qiu</strong>, Xuanjing Huang.</div>
+    <div id="bib_liu2016recurrent" class="bibtex noshow">
 <b>BibTeX</b>:
 <pre>
 @inproceedings{liu2016recurrent,
@@ -337,18 +259,40 @@
   title = {Recurrent Neural Network for Text Classification with Multi-Task Learning},
   booktitle = {Proceedings of International Joint Conference on Artificial Intelligence},
   year = {2016},
-  pages = {2873--2879}, 
+  pages = {2873--2879},
   url = {https://arxiv.org/abs/1605.05101}
 }
 </pre>
-</div>
-
+    </div>
+  </div>
+</li>
 
 </ol>
 
-							</div><!-- end of content-->
-						</div>
-						<!-- end of pagecell1-->
+<script>
+function toggleInfo(articleid, info) {
+  var entry = document.getElementById(articleid);
+  var abs = document.getElementById('abs_' + articleid);
+  var rev = document.getElementById('rev_' + articleid);
+  var bib = document.getElementById('bib_' + articleid);
 
-					</body>
-				</html>
+  if (abs && info === 'abstract') {
+    abs.className = abs.className.indexOf('noshow') === -1 ? 'abstract noshow' : 'abstract';
+  } else if (rev && info === 'review') {
+    rev.className = rev.className.indexOf('noshow') === -1 ? 'review noshow' : 'review';
+  } else if (bib && info === 'bibtex') {
+    bib.className = bib.className.indexOf('noshow') === -1 ? 'bibtex noshow' : 'bibtex';
+  } else {
+    return;
+  }
+
+  var anyShown =
+    (abs && abs.className.indexOf('noshow') === -1) ||
+    (rev && rev.className.indexOf('noshow') === -1) ||
+    (bib && bib.className.indexOf('noshow') === -1);
+
+  if (entry) {
+    entry.className = anyShown ? 'entry show highlight' : 'entry show';
+  }
+}
+</script>
