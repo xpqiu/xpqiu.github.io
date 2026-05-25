@@ -751,26 +751,28 @@ hr {
 
 .students-group {
   display: grid;
-  grid-template-columns: 72px 1fr;
+  grid-template-columns: 5rem 1fr;
   gap: 0.5rem 0.85rem;
   align-items: start;
   margin: 0.45rem 0;
 }
 .students-group__label {
-  display: inline-block;
+  display: block;
   font-size: 0.74rem;
   font-weight: 700;
-  padding: 0.18rem 0.55rem;
-  border-radius: 999px;
+  padding: 0.22rem 0.5rem;
+  border-radius: 10px;
   text-align: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   margin-top: 0.2rem;
-  height: fit-content;
-  white-space: nowrap;
+  line-height: 1.35;
+  white-space: normal;
+  word-break: keep-all;
   background: var(--c-surface-2);
   color: var(--c-muted);
 }
 .students-group__label--phd      { background: #fef3c7; color: #92400e; }  /* amber */
+.students-group__label--phd-cz   { background: #f3e8ff; color: #6b21a8; }  /* violet - 创智 */
 .students-group__label--ms       { background: #e0e7ff; color: #3730a3; }  /* indigo */
 .students-group__label--ug       { background: #dcfce7; color: #166534; }  /* green */
 .students-group__label--visiting { background: #fce7f3; color: #9d174d; }  /* pink */
@@ -785,6 +787,24 @@ hr {
 .visiting-students .annot {
   font-size: 0.82em;
   color: var(--c-muted);
+}
+.students-group__names .tag,
+.visiting-students .tag {
+  font-weight: 600;
+}
+.students-group__names .tag--shuobo,
+.visiting-students .tag--shuobo   { color: #b45309; }  /* 硕博 - amber */
+.students-group__names .tag--zhibo,
+.visiting-students .tag--zhibo    { color: #1d4ed8; }  /* 直博 - blue */
+.students-group__names .tag--zhuobo,
+.visiting-students .tag--zhuobo   { color: #7c2d92; }  /* 卓博 - magenta */
+.students-group__names .tag--cz,
+.visiting-students .tag--cz       { color: #6b21a8; }  /* 创智 - violet */
+.students-group__names .tag--pujiang,
+.visiting-students .tag--pujiang  { color: #0f766e; }  /* 浦江联培 - teal */
+.students-group__names .dest,
+.visiting-students .dest {
+  cursor: help;       /* hover to see "毕业去向" tooltip */
 }
 
 .visiting-students {
