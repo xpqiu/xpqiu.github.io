@@ -781,6 +781,11 @@ hr {
   color: var(--c-text);
   font-size: 0.95rem;
 }
+.students-group__names .annot,
+.visiting-students .annot {
+  font-size: 0.82em;
+  color: var(--c-muted);
+}
 
 .visiting-students {
   margin: 0;

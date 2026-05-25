@@ -86,11 +86,11 @@ permalink: /students.html
   <div class="entry__body">
     <div class="students-group">
       <span class="students-group__label students-group__label--phd">博士生</span>
-      <p class="students-group__names">程沁源（硕博）、汪燠欣（共同导师：黄萱菁）、刘佩举（硕博）、吕凯（硕博）、印张悦（硕博）</p>
+      <p class="students-group__names">程沁源（2020–2025，硕博，模思智能）、汪燠欣（共同导师：黄萱菁）、刘佩举（硕博）、吕凯（硕博）、印张悦（硕博）</p>
     </div>
     <div class="students-group">
       <span class="students-group__label students-group__label--ms">硕士生</span>
-      <p class="students-group__names">常成（模思）、胡先念（阿里）、洪嘉伟（上海人工智能实验室）、李鹏、刘腾霄（UCSB, PHD）、权国风（阿里）、孙瑜（上海人工智能实验室）、吴玲玲（Optiver）、吴嘉文（世纪前沿）、杨小珪（上海人工智能实验室）、杨雨晴（USC, PHD）、张啸天（创业）、郑彦俊（蚂蚁）</p>
+      <p class="students-group__names">常成（模思智能）、胡先念（阿里）、洪嘉伟（上海人工智能实验室）、李鹏（SII）、刘腾霄（UCSB, PHD）、权国风（阿里）、孙瑜（上海人工智能实验室）、吴玲玲（Optiver）、吴嘉文（世纪前沿）、杨小珪（上海人工智能实验室）、杨雨晴（USC, PHD）、张啸天（创业）、郑彦俊（蚂蚁）</p>
     </div>
   </div>
 </li>
@@ -100,7 +100,7 @@ permalink: /students.html
   <div class="entry__body">
     <div class="students-group">
       <span class="students-group__label students-group__label--phd">博士生</span>
-      <p class="students-group__names">李孝男（2020–2025，直博，USA Startup）、周云华（2020–2023，上海人工智能实验室）、李世民（2020–2025，硕博，模思）、刘向阳（2020–2025，硕博，创业）、罗琪（硕博）</p>
+      <p class="students-group__names">李孝男（2020–2025，直博，USA Apple）、周云华（2020–2023，上海人工智能实验室）、李世民（2020–2025，硕博，模思智能）、刘向阳（2020–2025，硕博，创业）、罗琪（2020–2025，硕博，模思智能）</p>
     </div>
     <div class="students-group">
       <span class="students-group__label students-group__label--ms">硕士生</span>
@@ -241,3 +241,72 @@ permalink: /students.html
   <h2>访问学生</h2>
   <p class="visiting-students">阚志刚（国防科技大学，2021）、胡明昊（国防科技大学，2017）、王永（香港大学，2017）、郑人杰（同济大学，2017）</p>
 </section>
+
+<script>
+/* Sort each name list (.students-group__names, .visiting-students)
+ * by pinyin. Annotation in （...） is ignored for sorting, kept in output.
+ *
+ * Surname-specific pinyin overrides: characters whose surname reading
+ * differs from the default reading used by Intl.Collator. Map each to
+ * a different Han character that shares the *correct* surname pinyin —
+ * the substitute is used only for sorting, the display text is intact. */
+(function () {
+  'use strict';
+  var collator;
+  try {
+    collator = new Intl.Collator('zh-Hans-CN', { sensitivity: 'base', numeric: true });
+  } catch (e) {
+    return; // Old browser: leave names in source order
+  }
+
+  var SURNAME_FIX = {
+    '曾': '增',  // Zēng (not Céng)
+    '单': '善',  // Shàn (not Dān)
+    '仇': '秋',  // Qiú (not Chóu)
+    '朴': '飘',  // Piáo (not Pǔ)
+    '解': '谢',  // Xiè (not Jiě)
+    '翟': '宅',  // Zhái (not Dí)
+    '区': '欧',  // Ōu (not Qū)
+    '查': '渣',  // Zhā (not Chá)
+    '盖': '葛',  // Gě (not Gài)
+    '种': '虫',  // Chóng (not Zhǒng)
+    '乐': '岳',  // Yuè (not Lè)
+    '尉': '畏'   // Wèi (not Yù; surname 尉迟 etc.)
+  };
+
+  function nameOf(entry) {
+    var i = entry.indexOf('（');
+    return (i === -1 ? entry : entry.slice(0, i)).trim();
+  }
+
+  function sortKey(name) {
+    if (!name) return name;
+    var first = name.charAt(0);
+    return (SURNAME_FIX[first] || first) + name.slice(1);
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+    });
+  }
+
+  function renderItem(item) {
+    return escapeHtml(item).replace(/（[^）]*）/g, function (m) {
+      return '<span class="annot">' + m + '</span>';
+    });
+  }
+
+  document.querySelectorAll('.students-group__names, .visiting-students').forEach(function (el) {
+    var raw = el.textContent.trim();
+    if (!raw) return;
+    var items = raw.split('、').map(function (s) { return s.trim(); }).filter(Boolean);
+    if (items.length < 2) {
+      el.innerHTML = items.map(renderItem).join('、');
+      return;
+    }
+    items.sort(function (a, b) { return collator.compare(sortKey(nameOf(a)), sortKey(nameOf(b))); });
+    el.innerHTML = items.map(renderItem).join('、');
+  });
+})();
+</script>
