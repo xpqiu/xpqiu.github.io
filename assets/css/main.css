@@ -737,6 +737,36 @@ hr {
   font-size: 0.88rem;
 }
 
+/* -------- Tables (markdown-generated) -------- */
+.layout-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.93rem;
+  line-height: 1.6;
+}
+.layout-content table th,
+.layout-content table td {
+  text-align: left;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--c-border);
+  vertical-align: top;
+}
+.layout-content table th {
+  background: var(--c-surface);
+  color: var(--c-heading);
+  font-weight: 600;
+  border-bottom: 2px solid var(--c-rule);
+  white-space: nowrap;
+}
+.layout-content table tr:last-child td { border-bottom: none; }
+.layout-content table tr:hover td { background: var(--c-surface); }
+@media (max-width: 640px) {
+  .layout-content table { font-size: 0.86rem; }
+  .layout-content table th,
+  .layout-content table td { padding: 0.5rem 0.55rem; }
+}
+
 /* -------- Students page -------- */
 .page-intro {
   margin: 0 0 1.5rem;
