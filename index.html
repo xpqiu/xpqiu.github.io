@@ -35,8 +35,18 @@ permalink: /index.html
   </div>
 </section>
 
+{%- assign total_stars = 0 -%}
+{%- if site.data.gh_stars -%}
+  {%- for r in site.data.gh_stars.repos -%}{%- assign total_stars = total_stars | plus: r[1] -%}{%- endfor -%}
+  {%- for o in site.data.gh_stars.orgs -%}{%- for repo in o[1] -%}{%- assign total_stars = total_stars | plus: repo.stars -%}{%- endfor -%}{%- endfor -%}
+{%- endif -%}
 <section class="section">
-  <h2>开源项目</h2>
+  <h2 class="h2-with-total">开源项目
+    {% if total_stars > 0 %}<span class="h2-total" aria-label="GitHub 总 stars {{ total_stars }}" title="所列开源项目（全部公开仓库）GitHub star 总数">
+      <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.72 4.192a.75.75 0 0 1-1.088.791L8 12.347 4.232 14.327a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
+      <span class="h2-total__num">{%- include thousands.html n=total_stars -%}</span>
+    </span>{% endif %}
+  </h2>
   <div class="project-grid">
     {% for p in site.data.projects %}
     <a class="project-card{% if p.org %} project-card--series{% endif %}{% if p.feature %} project-card--feature{% endif %}" href="{{ p.url }}" target="_blank" rel="noopener">

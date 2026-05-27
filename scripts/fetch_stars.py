@@ -104,7 +104,7 @@ def main() -> int:
                 print(f"!! org {org}: {e}", file=sys.stderr)
 
     payload = {
-        "generated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "repos": repos,
         "orgs": orgs,
     }

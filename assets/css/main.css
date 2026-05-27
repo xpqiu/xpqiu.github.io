@@ -87,6 +87,26 @@ h2::before {
   background: var(--c-heading);
   border-radius: 1px;
 }
+.h2-with-total {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.h2-total {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.12);
+  color: #b45309;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h2-total svg { color: #f59e0b; flex-shrink: 0; }
+.h2-total__num { font-variant-numeric: tabular-nums; }
 h3 { font-size: 1.05rem; margin: 1.25rem 0 0.5rem; color: var(--c-heading); }
 h4 { font-size: 0.95rem; margin: 1rem 0 0.4rem; color: var(--c-muted); text-transform: uppercase; letter-spacing: 0.05em; }
 p  { margin: 0.6rem 0; line-height: 1.75; }

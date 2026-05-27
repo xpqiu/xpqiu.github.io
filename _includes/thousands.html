@@ -1,0 +1,16 @@
+{%- comment -%}
+Format an integer with thousands separators (commas). Handles up to 9 digits.
+Usage: {% include thousands.html n=total_stars %}
+{%- endcomment -%}
+{%- assign _s = include.n | append: '' -%}
+{%- assign _len = _s | size -%}
+{%- if _len <= 3 -%}{{ _s }}
+{%- elsif _len <= 6 -%}
+  {%- assign _p = _len | minus: 3 -%}
+  {{- _s | slice: 0, _p }},{{ _s | slice: _p, 3 -}}
+{%- elsif _len <= 9 -%}
+  {%- assign _p1 = _len | minus: 6 -%}
+  {%- assign _p2 = _len | minus: 3 -%}
+  {{- _s | slice: 0, _p1 }},{{ _s | slice: _p1, 3 }},{{ _s | slice: _p2, 3 -}}
+{%- else -%}{{ _s }}
+{%- endif -%}
