@@ -11,6 +11,9 @@
     </main>
     {% include footer.html %}
   </div>
+  {% if site.data.gh_stars %}
+  <script>window.__GH_STARS__ = {{ site.data.gh_stars | jsonify }};</script>
+  {% endif %}
   <script src="{{ '/assets/js/star-counter.js' | relative_url }}" defer></script>
 </body>
 </html>

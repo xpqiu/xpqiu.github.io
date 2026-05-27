@@ -4,12 +4,16 @@
  *   - [data-repo="owner/name"]   single repo → fills .stars-count
  *   - [data-org="orgname"]       organisation → populates <li> sub-repos
  *
- * Results cached in localStorage with a 1 h TTL to stay well within the
- * unauthenticated GitHub API rate limit (60 req/hour per IP). */
+ * Data source priority:
+ *   1. window.__GH_STARS__ baked at build time (_data/gh_stars.yml,
+ *      refreshed daily by .github/workflows/pages.yml)
+ *   2. localStorage cache (1 h TTL)
+ *   3. live GitHub API (only path that hits the 60 req/h unauth limit) */
 (function () {
   'use strict';
 
   var TTL_MS = 60 * 60 * 1000;
+  var BAKED = (typeof window !== 'undefined' && window.__GH_STARS__) || null;
 
   var STAR_SVG =
     '<svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">' +
@@ -49,6 +53,11 @@
     var repo = el.getAttribute('data-repo');
     if (!repo || repo.indexOf('/') === -1) {
       el.setAttribute('data-loaded', 'error');
+      return;
+    }
+    if (BAKED && BAKED.repos && BAKED.repos[repo] != null) {
+      el.querySelector('.stars-count').textContent = format(BAKED.repos[repo]);
+      el.setAttribute('data-loaded', 'ok');
       return;
     }
     var key = 'gh-stars:' + repo;
@@ -114,6 +123,10 @@
       }).join('');
     }
 
+    if (BAKED && BAKED.orgs && BAKED.orgs[org]) {
+      render(BAKED.orgs[org]);
+      return;
+    }
     var key = 'gh-org:' + org;
     var cached = readCache(key);
     if (cached) { render(cached); return; }

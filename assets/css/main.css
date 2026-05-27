@@ -480,8 +480,16 @@ hr {
 .project-card__head {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 0.4rem;
+}
+.project-card__head .project-card__link,
+.project-card__head .project-card__stars {
+  margin-left: auto;
+}
+.project-card__head .project-card__stars + .project-card__link {
+  margin-left: 0;
 }
 .project-card__name {
   font-weight: 700;
@@ -551,13 +559,7 @@ hr {
 }
 .repo-stars svg { color: #f59e0b; width: 12px; height: 12px; }
 
-.project-card__foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  margin-top: auto;
-}
+/* .project-card__foot — no longer used; link and stars moved into head */
 .project-card__stars {
   display: inline-flex;
   align-items: center;

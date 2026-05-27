@@ -19,9 +19,6 @@ include:
   - pubs2024.html
   - RA.html
 
-# Don't process the Typora-exported standalone pages or the source archive
-keep_files:
-  - pdf
 
 exclude:
   - README.md
