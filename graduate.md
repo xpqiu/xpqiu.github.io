@@ -21,8 +21,8 @@ permalink: /graduate.html
 如果你立志在大模型、AI系统、智能体、多模态、科学智能、具身智能等前沿领域做出高质量高影响力工作，欢迎加入我们！
 
 <aside class="callout callout--recruit">
-  <span class="callout__badge">2025 招生方向</span>
-  <p class="callout__text">大模型预训练、AI Infra、新架构、多模态、智能体、具身智能。</p>
+  <span class="callout__badge">2027 招生方向</span>
+  <p class="callout__text">大模型预训练/后训练、AI Infra、新架构、多模态、智能体、具身智能。</p>
 </aside>
 
 ## 招生说明
