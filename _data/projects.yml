@@ -30,7 +30,7 @@
 - name: 'NEX'
   url: 'https://github.com/nex-agi'
   org: 'nex-agi'
-  featured: ['Nex-N1']
+  featured: ['Nex-N1', 'Nex-N2']
   desc_zh: '下一代智能体的开源研究平台，覆盖后训练模型NEX-N1、通用智能体架构、Harness系统等。'
   desc_en: 'Open-source research platform for next-generation AI agents — architectures, reasoning, and tool use.'
   badge: 'Agents Series'
