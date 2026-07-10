@@ -9,7 +9,7 @@
   org: 'OpenMOSS'
   feature: true   # render as a tall left-column card that fills the row
   # featured: explicit allow list (case-insensitive); also defines display order.
-  featured: ['MOSS', 'MOSS-VL', 'MOSS-Audio', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
+  featured: ['MOSS', 'MOSS-VL', 'MOSS-Audio', 'MOSS-Transcribe-Diarize', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
   desc_zh: '开源对话式大语言模型系列，涵盖文本、视觉、语音等多模态对话能力，提供完整的预训练 / 对齐技术栈。'
   desc_en: 'Open-source conversational LLM series spanning text, vision and speech, with a complete pre-training and alignment stack.'
   badge: 'LLM Series'
