@@ -7,12 +7,12 @@
 - name: 'MOSS'
   url: 'https://github.com/OpenMOSS'
   org: 'OpenMOSS'
-  feature: true   # render as a full-width feature card
+  feature: true   # render as a tall left-column card that fills the row
   # featured: explicit allow list (case-insensitive); also defines display order.
-  featured: ['MOSS', 'MOSS-VL', 'MOSS-Image', 'MOSS-Audio', 'MOSS-Transcribe-Diarize', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
-  desc_zh: '开源大模型系列，覆盖文本、视觉、图像生成与语音等多模态能力，提供完整的预训练 / 对齐技术栈。'
-  desc_en: 'Open-source model series spanning text, vision, image generation and speech, with a complete pre-training and alignment stack.'
-  badge: 'Multimodal Series'
+  featured: ['MOSS', 'MOSS-VL', 'MOSS-Audio', 'MOSS-Transcribe-Diarize', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
+  desc_zh: '开源对话式大语言模型系列，涵盖文本、视觉、语音等多模态对话能力，提供完整的预训练 / 对齐技术栈。'
+  desc_en: 'Open-source conversational LLM series spanning text, vision and speech, with a complete pre-training and alignment stack.'
+  badge: 'LLM Series'
 - name: 'NNDL'
   url: 'https://github.com/nndl'
   org: 'nndl'
