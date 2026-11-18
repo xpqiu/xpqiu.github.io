@@ -9,7 +9,7 @@
   org: 'OpenMOSS'
   feature: true   # render as a tall left-column card that fills the row
   # featured: explicit allow list (case-insensitive); also defines display order.
-  featured: ['MOSS', 'MOSS-VL', 'MOSS-Image', 'MOSS-Audio', 'MOSS-Transcribe-Diarize', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
+  featured: ['MOSS', 'MOSS-Live', 'MOSS-VL', 'MOSS-Image', 'MOSS-Audio', 'MOSS-Transcribe-Diarize', 'MOSS-TTS-Nano', 'MOSS-TTS', 'MOSS-TTSD', 'MOVA']
   desc_zh: '开源对话式大语言模型系列，涵盖文本、视觉、语音等多模态对话能力，提供完整的预训练 / 对齐技术栈。'
   desc_en: 'Open-source conversational LLM series spanning text, vision and speech, with a complete pre-training and alignment stack.'
   badge: 'LLM Series'
@@ -29,8 +29,8 @@
   badge: 'Toolkit'
 - name: 'NEX'
   url: 'https://github.com/sii-nex'
-  org: 'nex-agi'
-  featured: ['Nex-N1', 'Nex-N2']
+  org: 'sii-nex'
+  featured: ['Nex-N1', 'Nex-N2', 'Nex-N2.6']
   desc_zh: '下一代智能体的开源研究平台，覆盖后训练模型NEX-N1、通用智能体架构、Harness系统等。'
   desc_en: 'Open-source research platform for next-generation AI agents — architectures, reasoning, and tool use.'
   badge: 'Agents Series'
